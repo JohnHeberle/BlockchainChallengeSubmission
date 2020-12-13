@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-MobileUser/Pods-MobileUser-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework
+${BUILT_PRODUCTS_DIR}/EosioSwift/EosioSwift.framework
+${BUILT_PRODUCTS_DIR}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.framework
+${BUILT_PRODUCTS_DIR}/EosioSwiftEcc/EosioSwiftEcc.framework
+${BUILT_PRODUCTS_DIR}/EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider.framework
+${PODS_ROOT}/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework

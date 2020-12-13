@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-MobileUser/Pods-MobileUser-resources.sh
+${PODS_ROOT}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider/transaction.abi.json
+${PODS_ROOT}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider/abi.abi.json
+${PODS_ROOT}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider/eosio.assert.abi.json
+${PODS_CONFIGURATION_BUILD_DIR}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.bundle

@@ -1,0 +1,2558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		06D25A4FF2ED1E3CE5A9A0822BE1F300 /* GRKOpenSSLFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A5734BF7A7E4A9E3E3646955D1C62916 /* Build configuration list for PBXAggregateTarget "GRKOpenSSLFramework" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GRKOpenSSLFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0183099E34B93ED5AD61571D1E5479EE /* islamic.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1273B006B22D494EBB63913CBF2DEF /* islamic.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04224239B9F1432788DB67B551132976 /* filereadstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D23172386CCA217D786F9A72048EA5 /* filereadstream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04C4B5D00750E2E4DFD4C4C7CC47283A /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F049E9262F42B6EDC579111651E3C7 /* Bitwise Ops.swift */; };
+		05AD6693B262F9822380EB4F5434709D /* EosioSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944229C7D260B816E2428BE0ECF99A5 /* EosioSwift-dummy.m */; };
+		0A0A52F8708F704A886F1B9CC6385AB6 /* julian.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D99CD8FC224C994B68993A75C3E9004 /* julian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DF63A4C8FA0E53FB630F5B5429FF066 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED0E6F49F1445A00EA9032ACE68FE3 /* Exponentiation.swift */; };
+		0E85E684D3F661DE7395AD54CF99E00F /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963CC6B42BB71686585EC03359C4C7C /* CustomStringConvertible.swift */; };
+		0ED3FB885BF3BA243577785CBD915F7F /* EosioTransactionAbis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A483A71F9CC3F31E31C810AEA8369F5 /* EosioTransactionAbis.swift */; };
+		0EEC98B948E17DAA43CBE601859A3CAF /* recover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2307CC784D280CC8D826FC6A0EC43C82 /* recover.cpp */; };
+		101BEDD4FB7C809A1B25C973F4320784 /* EosioTransactionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB7CB20862356FC8B62A16081A0FAC /* EosioTransactionFactory.swift */; };
+		1157CD492192A518F675CE489F9D45C3 /* ostreamwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 001610C492434494E7FEBC2BA7D3252B /* ostreamwrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		128C630D17B3AAA9032A47CB5B22989A /* tz.h in Headers */ = {isa = PBXBuildFile; fileRef = 08BBB1B7BC9C9C367137AAD8E91B00C0 /* tz.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1294E5CE5EC45963F674393D1BAD0616 /* EosioInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0274C44231AC5A90A6B3316534DA6B3 /* EosioInt64.swift */; };
+		140F7F4B7DC1280F03BE460B3260CDDF /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0E4CD4A77CDA01092C6D360D5A332 /* Configuration.swift */; };
+		161712F56ACB3FF8A992E03379ECF1B8 /* EosioSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 197389109CE1A5FC4EF8E144B409EE80 /* EosioSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16F71F20D31B7EEC6A60DB14135AB7A9 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C815F2767A83DD4B3CFC77FE753E451 /* Comparable.swift */; };
+		188D15A101EBC3353E307EE9DFC87C4F /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CE40A60EA7206AA86DB2AECA424DA2 /* AnyPromise.swift */; };
+		18978CB2B908FB396F597E7B3A51AB8B /* EosioSignatureProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B328EC8D7093CE731A1E23389C788136 /* EosioSignatureProviderProtocol.swift */; };
+		19E9D132174C2B5FCAA81EBBD4C40473 /* ptz.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF4EDB7C9F393F65C3B82F581D0264A /* ptz.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C0828D3D90FA220E84E40F5EB448683 /* abieos_ripemd160.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B9B64B9A3D547AD3CCC047E384B2774A /* abieos_ripemd160.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C7DE887D057D4D4E923E3DFF492E062 /* filewritestream.h in Headers */ = {isa = PBXBuildFile; fileRef = E54FA18B3D065DE051FD45865A21B0C0 /* filewritestream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CBB6A980FBAEB79ED50559612C64164 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE7A0C1730B0F2FE96B9D89939B20EB /* error.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CCDC9006C5B67381A69DB9DBB23196E /* EosioName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04CD77E735C1B6E5741839CB9AD9EF8 /* EosioName.swift */; };
+		1E71E4A933C522AA08BF7963973F4682 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B239E323CB9302F272E5B695676517 /* LinkedList.swift */; };
+		1E9C45CDB6CE8DD611C89C2D6D92105E /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81A4BA191E7693F44F35FA3D5B2833 /* NSTask+AnyPromise.m */; };
+		2228B8549F0F5445D1B2D346E12A20CD /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97007B0A9FDFFA55D33C45D353DAEA9F /* Floating Point Conversion.swift */; };
+		2343F2E7E64F7A364F449848217CAF9F /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73354BEA9074DAB411689E34957726 /* ArrayExtensions.swift */; };
+		23FB2BEB21C50FC9EC6C4866F244EF9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDBD0AB6A94AAD664A1FD76A69D1BCC /* Foundation.framework */; };
+		240F2A77BA3A719C3F230343623ABB13 /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = EDFA1CA1C8620F2373590B14C5DD3A85 /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242EDB62ECAD881AFA71474319222D1C /* EosioSwiftEcc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D54E5E8C0557AECDBDD994C4233536A /* EosioSwiftEcc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C9F53AFB96F9EE22AEC99EA22F55D3 /* itoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A741170129600A49AEDD087FDB16B07 /* itoa.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2624C45EDD3F8FC5AE2A63824F751A8E /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860690D2A2B226D402AC497104655CC7 /* UIView+Promise.swift */; };
+		27AE80090EAE061D494C709DA55F3FF1 /* transaction.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5D157EA710F6E56A4AA7AEA7F701B9 /* transaction.abi.json */; };
+		28DE1CC745AB2A99781924CFB138492F /* EosioSwiftAbieosSerializationProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FE6C38BC6E9E0D910247872F3B28F8 /* EosioSwiftAbieosSerializationProvider-dummy.m */; };
+		28FA76D7CB4253FDB9BE4BA6D34E15BE /* EosioTransactionAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104F240BD5722D8049BE903D3E3454D /* EosioTransactionAction.swift */; };
+		2BB42DBE64EC897B61C73B481B85D66E /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = AC854074DD84B65C4427B7952DB77238 /* writer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2BEFDB17234C991B2BE585C040428706 /* EosioSwiftAbieosSerializationProvider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2172C766A9B92B66896A65809860C11 /* EosioSwiftAbieosSerializationProvider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F06B155ACA3108F5883F409ECB81B7D /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 268222D29D0FBE258857E3862BF45266 /* NSURLSession+AnyPromise.m */; };
+		2F5028B4820B66119EF1CDDB81F03A7B /* recover.h in Headers */ = {isa = PBXBuildFile; fileRef = 177155C4D5A9856C579BA03AC80A20EC /* recover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FB67A73B731F8BA405E2889092CB47C /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BD11B394649F302D19B396F750D /* NSNotificationCenter+AnyPromise.m */; };
+		323FD60E12BBD4D30039C84662CA2A7C /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 693CE9018C2F1FFAD01A6F3D56DB87CA /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B6D8696F0651A0D0A325E20DC6562F /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = A77CEED368D5ADA3E59AB3D36B9DB3C2 /* fwd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33ED21D43B8C52F0C716E1B3D1C8D043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDBD0AB6A94AAD664A1FD76A69D1BCC /* Foundation.framework */; };
+		3425C3BA484A84D3D23F8969B865E3EE /* EosioRpcProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780B51C551FF2CD9D2BF20CC7B779B0 /* EosioRpcProviderProtocol.swift */; };
+		35BA4DA0BAE8ACBEE9DC3B0F063C61AA /* UIViewPropertyAnimator+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889524C8A479366FC77E44A3CA5C1D8 /* UIViewPropertyAnimator+Promise.swift */; };
+		36B8A550FAA65438EEB423E931E37C98 /* Pods-MobileUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CFC195E4CDA61953FC73B3076A3E2 /* Pods-MobileUser-dummy.m */; };
+		36BA19F3187872C92413A831A31EEAF0 /* ieee754.h in Headers */ = {isa = PBXBuildFile; fileRef = B733FE4DC2EB4B79E579B06B3BED89B7 /* ieee754.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39137B0D7B8FB5BF554BDE012BD85061 /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF919DB53C090829FD1918E52C9258 /* Data Conversion.swift */; };
+		3B9A2601095A9A72843D76CA44B37782 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A3C6078FD01D7CF1D4B94EBCCC5FD5 /* Division.swift */; };
+		3BD3C362CA48180D2A5D72A798809B6C /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ADB8A3FDA1686D2649D088549DEBB3 /* Process+Promise.swift */; };
+		3E25893B868D03EAD2FB7C30878A3A40 /* EosioSwiftSoftkeySignatureProvider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE60F1E836FDC0A835FAF529A48FAB4B /* EosioSwiftSoftkeySignatureProvider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F21661299EE6349CEB31ACBCF59025E /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774D915160D1557D984158BAE859CA33 /* LogEvent.swift */; };
+		3FDF73D216E9872FDA34434823B2200F /* EosioResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C581A4E46083AFFFD6B7A922ECFA57 /* EosioResult.swift */; };
+		4317BC40FE4F2FCCBCABDEFBF7622338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDBD0AB6A94AAD664A1FD76A69D1BCC /* Foundation.framework */; };
+		4362503059C68DFCDCB8621F4FD9E325 /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD1EDE32399E2BB24CC5E621C3D8B5 /* Square Root.swift */; };
+		44AD55080CEA302284621FF0143356D5 /* tz_private.h in Headers */ = {isa = PBXBuildFile; fileRef = D359301A460E57FA7BA86D6B5C96EAD6 /* tz_private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4557FD5E23A1E5DB9C86B70F73D8E62C /* EosioSwiftEcc.h in Headers */ = {isa = PBXBuildFile; fileRef = FA16ED1675D9B8DC190E2480A1552DC2 /* EosioSwiftEcc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45DC5940008B50BB77A2882B6228AE8F /* encodedstream.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AD52677F99DDD323959BA8C3B34254 /* encodedstream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46695A65CB410EC5F2511184879C00E5 /* EosioKeySignatureExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBE9F4B84DC27BF01C62B2D832181B2 /* EosioKeySignatureExtensions.swift */; };
+		4A8B21596204A43258F4EC69A7AEC66E /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A66D84A0F2D2FCE8866FAB69D3C129 /* Hashable.swift */; };
+		4D9E7E58E818FF108DD6C4FA056D7201 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BA57A1D93F9E9D836F2F5D324B6857 /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DBB0B6FAC866D53B8C6B84AC68F6AEC /* EosioSwiftAbieosSerializationProvider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB0483E2A51FAC5E471016D051582503 /* EosioSwiftAbieosSerializationProvider.bundle */; };
+		4F641E5CDA30AE42045EC6EAB71E934B /* EosioTransactionPromises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B359844562152C8CFA8BDD978E3614 /* EosioTransactionPromises.swift */; };
+		51059F1952C69028635CC5C555C771D9 /* stringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 09154B7C5E17A856B2DF9FD14881E9B3 /* stringbuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		517B2AD8E7A1ABFE68F9ADC721ED7C4D /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A49052159FAD304B04A1458BB26018C /* afterlife.swift */; };
+		568EC7A2707F9B27003C99AEDFDA5E18 /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8BC4DBA25E25B9E5CD438582245F6 /* UIView+AnyPromise.m */; };
+		56E02911DB04F9F19F7F636B9C156F0D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A240D578EA560B8EF7D3BC0846DBB /* DateExtensions.swift */; };
+		583B11F8B1D0281AE6A029681CDF137F /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31779C002D0F3737F1F42E81EF970304 /* NSNotificationCenter+Promise.swift */; };
+		58B6CA6D5BBC94CE9A1AB6D592753999 /* EosioSwiftEcc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FD127D72934329013CA778BC46F50 /* EosioSwiftEcc-dummy.m */; };
+		58FE8A82E0C3474C5FEF4FB1BA02695A /* EosioRpcProviderEndpointsForProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F872918BA0C1BFAA48C6E765E29B6 /* EosioRpcProviderEndpointsForProtocol.swift */; };
+		5918EC82B623D742A849294859CD01B2 /* chrono_io.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0BCDB169CA545A0963B0B5993F7950 /* chrono_io.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5923FB9B86C6FF2B0FFDC7A9736F66EC /* abi.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = A966221B562F793D000D7DE609C26063 /* abi.abi.json */; };
+		59482A77590060AD70D03D14A787D64E /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA168E06B40C445B52BF7FF23A249F4 /* Box.swift */; };
+		5B587B9CFFA7188BB227158666E70929 /* EosioSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D996F8FD815E16FEC3E5606A9FF84C9D /* EosioSwift.framework */; };
+		5C2D96BEE82341F662AE37E6EBAE32AE /* EosioRpcProviderEndpointsCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D217C53AECF4DC91A392A2D7E7C335D /* EosioRpcProviderEndpointsCallbacks.swift */; };
+		5C918925FAB9E12D50178A93DE04725F /* EosioSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D996F8FD815E16FEC3E5606A9FF84C9D /* EosioSwift.framework */; };
+		5E2574B7162EED00A81237F56CDC0BE4 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D0BEAA1678F1861FE544010F983FB0 /* BigInt.swift */; };
+		6002AD14210CBE9C34EB848031CFD7E6 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347ED27674AD9D19E91B845C5A63B07 /* Addition.swift */; };
+		603317877AFD06910F3C2676A01DE03F /* EccRecoverKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39123FA3F0708B7260DE5FB64FC3CBDA /* EccRecoverKey.swift */; };
+		61F96B1920FEC66FCF596C27EE314C0D /* strfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F41519EE9F8EC464AF94211E37FEA83 /* strfunc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62D7EE2FAB1839E51B8AF86F8A9A1B3C /* AllResponseProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437DB82505F2CD6C4A7C1D9589F39DC /* AllResponseProtocols.swift */; };
+		6315FB4894D7BBA9D80A939F89C5D08A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDBD0AB6A94AAD664A1FD76A69D1BCC /* Foundation.framework */; };
+		6382A1CB0C1BA2D662D8A854054BC681 /* EosioAbieosSerializationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A839AD7A615A39B394C3B364AEAED204 /* EosioAbieosSerializationProvider.swift */; };
+		63DC482646FF6BEDA2FD3BEA20E161F1 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886C530C0E90C04DE5C2BADBE8CA5E6 /* race.swift */; };
+		674468C667F577AFB49675C2604FE8DB /* EosioSwiftSoftkeySignatureProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3595B61829E852566C858CF815B5E448 /* EosioSwiftSoftkeySignatureProvider-dummy.m */; };
+		6753BB947FF1F2D2DBEFAA8C251B9E68 /* EosioAbiProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B4DC096B57224EE85D557E0D8F755C /* EosioAbiProviderProtocol.swift */; };
+		67718F34FA984CBE8AAE355CF7FA85A5 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B874A71359BE203A05EEFD8787EA6E8 /* DictionaryExtensions.swift */; };
+		6B96057A65D25987CBB2E2DDD17DAB33 /* Base58String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3AEC58780BBE67E072BA73826A8102 /* Base58String.swift */; };
+		6D0DB8753FB711FCEA9BBB91B4D61A6B /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 0669E39E53D7F89EAC6ECBE8DF997BCC /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7172347612BE312F0D195C3996674394 /* meta.h in Headers */ = {isa = PBXBuildFile; fileRef = DE71AA378CB1C190A39AF13A2030A861 /* meta.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74370BAEC39BD965C717C805B5B0F5ED /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9237867214867A280747039CA1C66AB4 /* NSURLSession+Promise.swift */; };
+		7690A5488FCDFF81295F419FBA9A8F07 /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7301062D5178D939C6A2DB3660A69996 /* PMKFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76FE4D219B1B813BB62430BFBE05EE55 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A0210B8411D4F5F03F7DFB7753A58 /* Queue.swift */; };
+		77D67476C1B34C054954CAE05BF3F61B /* reader.h in Headers */ = {isa = PBXBuildFile; fileRef = F95BDC43D9CF39EE32997DF642F94534 /* reader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77E62DD276DCA188E41934EAFCEE3C34 /* BigInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA6287ADFD4B71FB1C3232B732549DC /* BigInt.framework */; };
+		78796013186F1720230688991C337111 /* EosioUInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC8C8CA85F0683A2D9877C9FAFCA6D /* EosioUInt64.swift */; };
+		79143F1052CC025742245B53D4BDC714 /* ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E88E0CB1240BA5AA08C70ED951CDD38 /* ios.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A4E6A5715B514E6E70BA4CA01F94592 /* iso_week.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0D491901C6999F2204C09E2CAE0A3A /* iso_week.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C63C1E2B82FD233A7895CBE39E6A710 /* biginteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 033FD073455B56585F596F7F944359E4 /* biginteger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D468F912B568A930B415E0733A4A099 /* EosioSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D996F8FD815E16FEC3E5606A9FF84C9D /* EosioSwift.framework */; };
+		7EECE9FCF5E07473E6D0FE80BFCB94C9 /* BigInt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FA804F1C13F3CB067CFAA1B02E1E09 /* BigInt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80D965FB459263DC97366E58B463ABCA /* EosioRpcProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9E96B8FE4F346A906604EB2BD1A7A /* EosioRpcProvider.swift */; };
+		826D3F00C4923EDD5F25509B004148D3 /* RpcProviderRequestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3104A0C57B054396D242D62F3F2EB39B /* RpcProviderRequestModels.swift */; };
+		83C7CFA8A923A02CD47C2C91A422792A /* ZAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03BF99BF3BDFFA83CF7CC41978F1B9 /* ZAssert.swift */; };
+		83F17C2E38E332C651FCC8A5B26ADB20 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2779E135F6E51C8657143D34573218EC /* dispatch_promise.m */; };
+		84FD7690E5A44E51C4B628EA89ABA59F /* document.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2ABA4A376562F341BFA65127180C24 /* document.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8599E23B2946C6F3F6DA3D63EC82C4A3 /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960CAC254D9F3387212CD9FE7E83E54 /* Words and Bits.swift */; };
+		85BCDDEDC2FD5245CA21DE175FD8D5ED /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = 483919F3642204D96477B3A6B651E325 /* join.m */; };
+		85C528BB72B0A0D3C8436DAC176C16CF /* abieos.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F270D1A6514FCBA26824FEB428363C08 /* abieos.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		86687662331EBAF93DE24A529B6CE7D3 /* schema.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D92D25275F00513DB962DFB1DDF089 /* schema.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88363DC030C5DC131F8E23E99CED4F02 /* rapidjson.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDF158B11D772C1D6F7819B1F8DA7BF /* rapidjson.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88BCFC289092AA8CA4B8DEBFD2CD6296 /* cursorstreamwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4EE1BB66705481D23EEFF845CE42CB /* cursorstreamwrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88EB0210EE283919362F439319B837B5 /* dtoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 07437FAA18165C85328AAD8BA5FA1FBE /* dtoa.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89ACB8D7B49C4F6861D6F65BC513D0F0 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 573AD574CF9DB6B17921A63DEC488AEE /* stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89ACECDB182F374A26519363A7A526A1 /* EcdsaSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204342330FE00687ECE99FE8EF1FDCE /* EcdsaSignature.swift */; };
+		8C13CDE629E445CB2E4E5642EA6E028A /* EosioTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A6B7BABF876673C749A92D0EB659C /* EosioTransaction.swift */; };
+		8C3626B89DC3074BCA00AA9A50F0DCF7 /* EosioSwiftAbieosSerializationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = BA172E4A7CB741EF344DB6A672D9791B /* EosioSwiftAbieosSerializationProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EA33100BCDE9E4407E5114B9B125D8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4268972D8557D3E4F51F1CFDDF2EDD15 /* UIKit.framework */; };
+		9174AAADCA0BA50481DF1F6FE88BE9AE /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D8257463E516CF0BDDEF2F1C791B10 /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E9B8E4D3013C4C69956EF3CE337B7D /* eosio.assert.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE97E45D9234B0D47F43DE267C12227 /* eosio.assert.abi.json */; };
+		943C567090E76769F5EC5DA1895BA632 /* EosioRpcProviderEndpointsPromises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91284EE6892A2D64ACA42B17A8A26B /* EosioRpcProviderEndpointsPromises.swift */; };
+		943D700449737E6FBB45A3034D547A90 /* abieos_exception.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2D47EBD0307DF0B8C29D113F33D41AAF /* abieos_exception.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		9977A49674DF9EA2771DBE7E7CF7EB5B /* allocators.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA95086331BA0D4EB936FE375F578DC /* allocators.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99F35D362CDAA3F01D59E05FAB02907D /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3465132D7E186F4D6AA5D5DFE1ACCBF6 /* Strideable.swift */; };
+		9A1A8E637271FD254E0BCF8C0A104299 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD701D31F1BA00302DC16F0EFBFD796B /* StringExtensions.swift */; };
+		9AC419DDAB6FD06752855D2FF84F9823 /* encodings.h in Headers */ = {isa = PBXBuildFile; fileRef = 51ACDB6A0F1BB6B0FA1783A7BC6EC4B3 /* encodings.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DE14B77AD65BA7305CADF8B5CEDE45B /* fuzzer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BDC8CA9F33B28CF2E09B5DCA1BA8023D /* fuzzer.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E9AECD2648A4F18C034B2923F23563B /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE02D72F9E58230DDC398C72DBC4DDC /* when.swift */; };
+		9FCFE6699321810B0E13EEC12D76DBCD /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 48397F4F30E348C1606B35515037ED38 /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B8F0BFE16B6006A2DACCDE58B0B9EA /* diyfp.h in Headers */ = {isa = PBXBuildFile; fileRef = F19B57DC90455B66A30736635CD1FCEE /* diyfp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2633A44E1A693A5E98F139FD6E490B3 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = DC04AFBF3A7AD9DD2E711C0B415F8D6D /* AnyPromise.m */; };
+		A5007A3381CE2662149F2D9FC5958CF5 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007FA720985D5EA60DDCB8B1087798C8 /* PromiseKit.framework */; };
+		A5B53D19C1FA3E2AAE1BC82AC0FD5D6C /* RpcProviderResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7478C267E9A1DAC7A26C3FCD4ADC87 /* RpcProviderResponseModels.swift */; };
+		A80E29AD54ECE4ED6DD2B89D17839B6B /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8B2236931CD36F5D947EB40DB50E93 /* fwd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A88BBE8DDB931E750D4007822762E466 /* memorybuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = C1600DD7DB587498B51A12E48F32A872 /* memorybuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9340B37C13D9B8FDD6773EEE4E0F4BA /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CF28F2C35517690FA56940CA8EFA58 /* when.m */; };
+		AC3DE75EE04059E191120F9FB592A6D5 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776AD25AF89E31A91E0A511196B3770C /* Error.swift */; };
+		AC4E061C6A2D21210122B471D8BCC81E /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78D48EB904C91E5EACB0631FD8E11E /* Random.swift */; };
+		AC7DBF3AD44B3E7644068E6F09F9EBF2 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A1D41C44553E42D0FD511E17C18E1 /* BigUInt.swift */; };
+		ADA5002126722DA8AC691CA0577348B7 /* pow10.h in Headers */ = {isa = PBXBuildFile; fileRef = 7633BF4D496E4F1DB0FDFB599FF5FAF1 /* pow10.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF63F5B56527819A9B687ADEA8267043 /* transaction.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5D157EA710F6E56A4AA7AEA7F701B9 /* transaction.abi.json */; };
+		AFE4D85899B04BEC5F040CA05813A5D9 /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F473A3F07426073EC769C512DD9EDA2 /* UIViewController+AnyPromise.m */; };
+		B07A66454547FC83C32C2B69FAFB0CD5 /* EosioEccSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC263899A08A2C10847D2E4219B786D /* EosioEccSign.swift */; };
+		B2AC5C28B2CD865E1ED24CA021AD3BA7 /* NSURLSession+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8086C8C46A9120B5334241130AEEB5 /* NSURLSession+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B424781FE83ED2FFE1571CB3451A9425 /* abieos.h in Headers */ = {isa = PBXBuildFile; fileRef = BF149298C377C29620F92AED0FB45625 /* abieos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B47CBC5B93780E695C945F842C4F69 /* EosioSwiftSoftkeySignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 69068B2578C40680A01F466D2E7A9085 /* EosioSwiftSoftkeySignatureProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B63A637FD62A3A6B8F74BF4269B5B5D5 /* EosioSoftkeySignatureProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C55D265E4D76494E507965713977166 /* EosioSoftkeySignatureProvider.swift */; };
+		B898A49BA9BC093569819CE51CB213EB /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E42A43C3D13A19610968A4EA50DE05 /* hang.swift */; };
+		B99EC1746C5244E1CF2183506FAE2F17 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFEF5A3839C930CDC47086DB1F6A59 /* after.m */; };
+		BAA052C302D45F8DAB72606E997CAD69 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D471835B68489D9A0AD3082048082 /* Subtraction.swift */; };
+		BB95B69AA234F0E227E0B05C6C54E5AF /* DynamicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DD7C94DCD2DA79BD1574FC6022BA93 /* DynamicKey.swift */; };
+		BC878447E04877AC439DA9750FD44724 /* pointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6599255F07EA35B1D224CFE7AC5D8BE1 /* pointer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE29AFA73FEDAFA471F35F8AB1C3EA99 /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6907B004182D8F9BE87A85AE8E5B7E26 /* Shifts.swift */; };
+		C1D8AFE6EDBACC0F318362B3933014A1 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4250F97DE46EA7615A829EA6644F26 /* NSObject+Promise.swift */; };
+		C3E44499F6FCA10E4FE41B5579E78170 /* strtod.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A6F24A211B86F304C7793D6C6E789F /* strtod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4D0CB0738C601DD24C0918BA2A568B7 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91535337D4C863DA3381CC5F569CE3A9 /* Resolver.swift */; };
+		C69DC9D999D26A522CC08D826C2E634F /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051074842069459A75804354B19B09C /* Deprecations.swift */; };
+		C72351935611BF21A22F61732C30871B /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621E886A767E180F621D08AE52AED05 /* Promise.swift */; };
+		CD76947D5CDC041AA3D5A25CF2F51347 /* EllipticCurveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F479B5D668A977801D960BCAD6D949 /* EllipticCurveType.swift */; };
+		CEAC784F449FFC3A44370D88442F14E4 /* eosio.assert.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE97E45D9234B0D47F43DE267C12227 /* eosio.assert.abi.json */; };
+		D1309BF87A4EF1AAFBE0C410460C40FC /* EosioSerializationProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE62BCF5BB6ACEBA065BA6E9502D00B /* EosioSerializationProviderProtocol.swift */; };
+		D2743223C0C90A6ABC40296DCC437C95 /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1B10EFE9532907F0D33DC8C0EF86F /* EncodableExtensions.swift */; };
+		D39FF0A3F947462EEE84CB3E2B9B4870 /* fuzzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555BF6066B4D61BE2A055785D0D9D9B0 /* fuzzer.cpp */; };
+		D450EF6D548058E294E067FAC98F8ACC /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DD997E418B3A10DB586E69089BA3E /* after.swift */; };
+		D48A4410A7C8CE6B6A0787A0F4999DE5 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692D120ABE0645F24F2EA086EBE585BA /* Multiplication.swift */; };
+		D8240EBAAB2DD4234F126E4A700EE526 /* Catchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA259D7AB8D5A83C68403D8E94335A63 /* Catchable.swift */; };
+		D876E549F18CE044B83612EFFEB6F546 /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BA921B6D8ABB6C983843FB133B2F9C /* Guarantee.swift */; };
+		D97978F2F5E0B637D6B8E91503213A98 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630A9B395645634667D6AD7A2DE4DDE /* Thenable.swift */; };
+		DA5830F8370A4DCA48A3EB4EA3DD2E9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDBD0AB6A94AAD664A1FD76A69D1BCC /* Foundation.framework */; };
+		DA60CC6C0D4400216F12D2EB75610F79 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 594892C83EC6534E28B5D691EF6055A6 /* PromiseKit-dummy.m */; };
+		DA824B04CE737E97CEF3F14BD12D2712 /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A209A58ECCB86CC906412347ED4C1B /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB85B16DBABC7066B213DA323FE40E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDBD0AB6A94AAD664A1FD76A69D1BCC /* Foundation.framework */; };
+		DBE9A6D9CB82D8605F4C25B9426B1557 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F94C10759C11A2D7E656E90C5E3516 /* Codable.swift */; };
+		DBEEE0B272E2A71B1AF94EAC80F3C11A /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F5433117712B7BB01F8138520D0BF /* firstly.swift */; };
+		DCDE39084863D543CE4F003F85E3CEAB /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F99D1CE17209F345C756FD2DED62DFA4 /* PMKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF042094A91EC61628323ABA9F72D812 /* abieos_numeric.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5B608C12DDF09F3DF09BD6D7E9AD9CE6 /* abieos_numeric.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0B84D75D0F7E7EA2E905C05774CC361 /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B97A6712CAC570C9DE3ACCD8CE7F3 /* Integer Conversion.swift */; };
+		E1B3283418A394A58C5AE1699CE01111 /* regex.h in Headers */ = {isa = PBXBuildFile; fileRef = 7949B035F8129E18546FE49C5AA770D4 /* regex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E282C3382E0B171FDDE25EDDC0295DC3 /* abi.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = A966221B562F793D000D7DE609C26063 /* abi.abi.json */; };
+		E3A201E552D0766EDAF2AE3E868852DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDBD0AB6A94AAD664A1FD76A69D1BCC /* Foundation.framework */; };
+		E4122FF2471ECB8ACDE31FF692FC148F /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC55B69DBF08B37ED697D512D35AD5 /* DataExtensions.swift */; };
+		E7E56C10A3D3D5475C5F55D2975318FF /* swap.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D87A6E0E7B9ECDC4642B5D6FD96685E /* swap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E872A0E0EAE38E956859E115976F7027 /* EosioAbiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF97E328FEA8AE24D42A99783DDC35 /* EosioAbiProvider.swift */; };
+		E8ABBB87CFEBE721FC2D14B71A719BC2 /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCE7F3334EC0C277981E24421367F7 /* String Conversion.swift */; };
+		E93CF504980B3D653BB4530E7F98E9F6 /* Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B111F9ADE68A9EE80963A8B7A55A23 /* Prime Test.swift */; };
+		EB64C6BA939C990938AA64DCCA110C9B /* prettywriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B22AB7C23BF241A6CBF2F5CEEA3C40C1 /* prettywriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC2077F20B20F382DEFB0078ABE4887E /* EosioSwiftEcc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA22D149C81CE990A47ADE494520F8E /* EosioSwiftEcc.framework */; };
+		ED13D4F518121A4FA0C0D48CC88E9A31 /* EosioError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450339C53FF8FE79F6D89FF6C69326C /* EosioError.swift */; };
+		ED4AA47F308268F9E2820D02F98A63D1 /* RIPEMD160.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995AE135A5749D7CDE48F43888FD1EAC /* RIPEMD160.swift */; };
+		ED719268511BCB9FA18C3A61B7197DED /* race.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FF834145759CA63BE9AF25F2A045BD /* race.m */; };
+		EEF076907CCCDBB14A541DAA7BFCFA63 /* date.h in Headers */ = {isa = PBXBuildFile; fileRef = B83E8B736893095DA1FFC4CC2B8FB8D1 /* date.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F13925E2206A7647AC326ECFA6ED2856 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577FC403E827C8789A8C1A81F3023BB1 /* GCD.swift */; };
+		F1999DB7E7776ACA9B8C0E2C59E80EE4 /* istreamwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B96DD06703492FD26F4CAC269EC7B6 /* istreamwrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F35066ED10C93F1CD7122D8BF18CB95B /* memorystream.h in Headers */ = {isa = PBXBuildFile; fileRef = 489E61DF81008208F79151D04B18F353 /* memorystream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F53C606E5B1534D3B4CDB94BC2AAA820 /* en.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5C41F44AC23F2E440959841E64563C /* en.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6E9B818A70780B96747BC1B2C5A1892 /* abieos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6423FDAD3794FBA23084D894B2D958E1 /* abieos.cpp */; };
+		F72B8320B68BC5C22BA3784B9A0B8260 /* Pods-MobileUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C12F58A0C41ECF676D9EFF37676C55C /* Pods-MobileUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7DDE782A9FB4163283970977B7967D /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A5720B5E6DFFF3949A2F17164B693 /* hang.m */; };
+		FCA123EF201B3BC7018B1D740D2F72EF /* ResolverExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E92C41FB0E1A944C373DA4F09F14B /* ResolverExtensions.swift */; };
+		FCCEA2E53F94FC6DD08CF0EE8DF9D31C /* RequestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2445E29CC11C1F3A26CAC173E9A4C6FB /* RequestModels.swift */; };
+		FE1B0E02F7DFC5CB89BF867241B8C4B5 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F42720D6C31BD570F5654F13245F23 /* stack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFF7E224F5F3094210837EC8C7FE4960 /* BigInt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9454C7CD444FF53871BB271FC0068251 /* BigInt-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077D75E0018C437BC9A0B80EF1E9988B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D25A4FF2ED1E3CE5A9A0822BE1F300;
+			remoteInfo = GRKOpenSSLFramework;
+		};
+		0A7BBDFB14D0D0CE1A7C63C1A1F0DF3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DD11FE3425410A409E55A889EACD4E;
+			remoteInfo = EosioSwift;
+		};
+		1DD0B61E68D4AE058E5BB06BB4344582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DD83B7D075842A3A5105AD410BD38A;
+			remoteInfo = BigInt;
+		};
+		3EC090C731FFE0F65EEDE215F358F4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E80DF59FBB7E1F74EE85DA494739FD82;
+			remoteInfo = EosioSwiftSoftkeySignatureProvider;
+		};
+		80F3738D9318033B344B90E83F827A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D51AEB6C34F478BB7906F0EF1819936;
+			remoteInfo = EosioSwiftEcc;
+		};
+		87673F95C7B5AD416D0C552A7C3B3FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DD11FE3425410A409E55A889EACD4E;
+			remoteInfo = EosioSwift;
+		};
+		9A37AED13E1A3BC4B3589B114CCA4196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DD83B7D075842A3A5105AD410BD38A;
+			remoteInfo = BigInt;
+		};
+		9FE08F0A7458AE83559E440829DC3C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DD11FE3425410A409E55A889EACD4E;
+			remoteInfo = EosioSwift;
+		};
+		A68E46AEB36DDDA9058ACBD8E7AAC4A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D25A4FF2ED1E3CE5A9A0822BE1F300;
+			remoteInfo = GRKOpenSSLFramework;
+		};
+		AE7F5D43A7A1649D80578DD02F46DD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2341A38E4995D75FC811B1B46BD7AC2;
+			remoteInfo = "EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider";
+		};
+		B2C4A0F08D6F02AD93D3BF913D36FD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D51AEB6C34F478BB7906F0EF1819936;
+			remoteInfo = EosioSwiftEcc;
+		};
+		BDDEB75C21A3B5465196FC643F98F4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
+		CDFF35C8783733F610F2D7C2D89827DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
+		EFFC8EA557CC3448D651839CD33A320A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 382B8C2672491F3FE8AF9C3F5C774A62;
+			remoteInfo = EosioSwiftAbieosSerializationProvider;
+		};
+		F8D827A3533F050AFD0D3A79FC9254B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DD11FE3425410A409E55A889EACD4E;
+			remoteInfo = EosioSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001610C492434494E7FEBC2BA7D3252B /* ostreamwrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ostreamwrapper.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/ostreamwrapper.h; sourceTree = "<group>"; };
+		002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		007FA720985D5EA60DDCB8B1087798C8 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D92D25275F00513DB962DFB1DDF089 /* schema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schema.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/schema.h; sourceTree = "<group>"; };
+		02C5DA499D131405AF1DA00784AAC217 /* BigInt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BigInt-Info.plist"; sourceTree = "<group>"; };
+		033FD073455B56585F596F7F944359E4 /* biginteger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = biginteger.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/biginteger.h; sourceTree = "<group>"; };
+		055A1D41C44553E42D0FD511E17C18E1 /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = Sources/BigUInt.swift; sourceTree = "<group>"; };
+		06022F560F80624462203A641F038BFF /* Pods-MobileUser-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobileUser-acknowledgements.plist"; sourceTree = "<group>"; };
+		0669E39E53D7F89EAC6ECBE8DF997BCC /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
+		07437FAA18165C85328AAD8BA5FA1FBE /* dtoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtoa.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/dtoa.h; sourceTree = "<group>"; };
+		08BBB1B7BC9C9C367137AAD8E91B00C0 /* tz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tz.h; path = EosioSwiftAbieosSerializationProvider/date/tz.h; sourceTree = "<group>"; };
+		09154B7C5E17A856B2DF9FD14881E9B3 /* stringbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringbuffer.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/stringbuffer.h; sourceTree = "<group>"; };
+		0944229C7D260B816E2428BE0ECF99A5 /* EosioSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EosioSwift-dummy.m"; sourceTree = "<group>"; };
+		09ADB8A3FDA1686D2649D088549DEBB3 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		0A5D34A5B5F612A7880B46C6FA253C10 /* EosioSwiftSoftkeySignatureProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwiftSoftkeySignatureProvider.release.xcconfig; sourceTree = "<group>"; };
+		0AAB7CB20862356FC8B62A16081A0FAC /* EosioTransactionFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioTransactionFactory.swift; path = EosioSwift/EosioTransaction/EosioTransactionFactory.swift; sourceTree = "<group>"; };
+		0C3AEC58780BBE67E072BA73826A8102 /* Base58String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base58String.swift; path = EosioSwift/Crypto/Base58String.swift; sourceTree = "<group>"; };
+		0CA22D149C81CE990A47ADE494520F8E /* EosioSwiftEcc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EosioSwiftEcc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D971F6C13E280A72A638604E631F469 /* EosioSwiftEcc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwiftEcc.release.xcconfig; sourceTree = "<group>"; };
+		0DA168E06B40C445B52BF7FF23A249F4 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		0FEC55B69DBF08B37ED697D512D35AD5 /* DataExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtensions.swift; path = EosioSwift/Extensions/DataExtensions.swift; sourceTree = "<group>"; };
+		111FD127D72934329013CA778BC46F50 /* EosioSwiftEcc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EosioSwiftEcc-dummy.m"; sourceTree = "<group>"; };
+		114A240D578EA560B8EF7D3BC0846DBB /* DateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = EosioSwift/Extensions/DateExtensions.swift; sourceTree = "<group>"; };
+		11A8BC4DBA25E25B9E5CD438582245F6 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
+		13094A3F92ADDFF49F452BE78BE5420B /* EosioSwiftAbieosSerializationProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftAbieosSerializationProvider-prefix.pch"; sourceTree = "<group>"; };
+		15F049E9262F42B6EDC579111651E3C7 /* Bitwise Ops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bitwise Ops.swift"; path = "Sources/Bitwise Ops.swift"; sourceTree = "<group>"; };
+		16A209A58ECCB86CC906412347ED4C1B /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
+		177155C4D5A9856C579BA03AC80A20EC /* recover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = recover.h; path = EosioSwiftEcc/Recover/recover.h; sourceTree = "<group>"; };
+		197389109CE1A5FC4EF8E144B409EE80 /* EosioSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwift-umbrella.h"; sourceTree = "<group>"; };
+		1D87A6E0E7B9ECDC4642B5D6FD96685E /* swap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swap.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/swap.h; sourceTree = "<group>"; };
+		1DF4EDB7C9F393F65C3B82F581D0264A /* ptz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptz.h; path = EosioSwiftAbieosSerializationProvider/date/ptz.h; sourceTree = "<group>"; };
+		1E78D48EB904C91E5EACB0631FD8E11E /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Sources/Random.swift; sourceTree = "<group>"; };
+		1EE62BCF5BB6ACEBA065BA6E9502D00B /* EosioSerializationProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioSerializationProviderProtocol.swift; path = EosioSwift/EosioSerializationProviderProtocol/EosioSerializationProviderProtocol.swift; sourceTree = "<group>"; };
+		1F473A3F07426073EC769C512DD9EDA2 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
+		2104F240BD5722D8049BE903D3E3454D /* EosioTransactionAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioTransactionAction.swift; path = EosioSwift/EosioTransaction/EosioTransactionAction.swift; sourceTree = "<group>"; };
+		2307CC784D280CC8D826FC6A0EC43C82 /* recover.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = recover.cpp; path = EosioSwiftEcc/Recover/recover.cpp; sourceTree = "<group>"; };
+		2445E29CC11C1F3A26CAC173E9A4C6FB /* RequestModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModels.swift; path = EosioSwift/EosioRpcProviderProtocol/RequestModels/RequestModels.swift; sourceTree = "<group>"; };
+		268222D29D0FBE258857E3862BF45266 /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
+		2779E135F6E51C8657143D34573218EC /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
+		27D0BEAA1678F1861FE544010F983FB0 /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = Sources/BigInt.swift; sourceTree = "<group>"; };
+		28D8257463E516CF0BDDEF2F1C791B10 /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
+		2A0D491901C6999F2204C09E2CAE0A3A /* iso_week.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iso_week.h; path = EosioSwiftAbieosSerializationProvider/date/iso_week.h; sourceTree = "<group>"; };
+		2AE40BD11B394649F302D19B396F750D /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
+		2D2A0210B8411D4F5F03F7DFB7753A58 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = EosioSwift/Foundation/Queue.swift; sourceTree = "<group>"; };
+		2D47EBD0307DF0B8C29D113F33D41AAF /* abieos_exception.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos_exception.hpp; path = EosioSwiftAbieosSerializationProvider/abieos_exception.hpp; sourceTree = "<group>"; };
+		2DF1545C64154E989E95EA0152E2FD97 /* PromiseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.release.xcconfig; sourceTree = "<group>"; };
+		2F41519EE9F8EC464AF94211E37FEA83 /* strfunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strfunc.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/strfunc.h; sourceTree = "<group>"; };
+		30A6F24A211B86F304C7793D6C6E789F /* strtod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strtod.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/strtod.h; sourceTree = "<group>"; };
+		3104A0C57B054396D242D62F3F2EB39B /* RpcProviderRequestModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RpcProviderRequestModels.swift; path = EosioSwift/EosioRpcProvider/Models/RpcProviderRequestModels.swift; sourceTree = "<group>"; };
+		31779C002D0F3737F1F42E81EF970304 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
+		32E42A43C3D13A19610968A4EA50DE05 /* hang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
+		3465132D7E186F4D6AA5D5DFE1ACCBF6 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/Strideable.swift; sourceTree = "<group>"; };
+		3595B61829E852566C858CF815B5E448 /* EosioSwiftSoftkeySignatureProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EosioSwiftSoftkeySignatureProvider-dummy.m"; sourceTree = "<group>"; };
+		371B97A6712CAC570C9DE3ACCD8CE7F3 /* Integer Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer Conversion.swift"; path = "Sources/Integer Conversion.swift"; sourceTree = "<group>"; };
+		37895657AA0BE52ED6FC24315236E5FD /* EosioSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EosioSwift.modulemap; sourceTree = "<group>"; };
+		38141FDB0D78A932588C8075DC2506D2 /* EosioSwiftSoftkeySignatureProvider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EosioSwiftSoftkeySignatureProvider-Info.plist"; sourceTree = "<group>"; };
+		38B239E323CB9302F272E5B695676517 /* LinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = EosioSwift/Foundation/LinkedList.swift; sourceTree = "<group>"; };
+		39123FA3F0708B7260DE5FB64FC3CBDA /* EccRecoverKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EccRecoverKey.swift; path = EosioSwiftEcc/Recover/EccRecoverKey.swift; sourceTree = "<group>"; };
+		3A81A4BA191E7693F44F35FA3D5B2833 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
+		417F872918BA0C1BFAA48C6E765E29B6 /* EosioRpcProviderEndpointsForProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioRpcProviderEndpointsForProtocol.swift; path = EosioSwift/EosioRpcProvider/Endpoints/EosioRpcProviderEndpointsForProtocol.swift; sourceTree = "<group>"; };
+		418EF995F5100A880599CCD8025C99F5 /* BigInt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.debug.xcconfig; sourceTree = "<group>"; };
+		4268972D8557D3E4F51F1CFDDF2EDD15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4336AA699D2111F8E3C0CBFA5955296D /* Pods-MobileUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobileUser.modulemap"; sourceTree = "<group>"; };
+		4347ED27674AD9D19E91B845C5A63B07 /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = Sources/Addition.swift; sourceTree = "<group>"; };
+		46B359844562152C8CFA8BDD978E3614 /* EosioTransactionPromises.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioTransactionPromises.swift; path = EosioSwift/EosioTransaction/EosioTransactionPromises.swift; sourceTree = "<group>"; };
+		483919F3642204D96477B3A6B651E325 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
+		48397F4F30E348C1606B35515037ED38 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		489E61DF81008208F79151D04B18F353 /* memorystream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memorystream.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/memorystream.h; sourceTree = "<group>"; };
+		49393A5E4E196B3AF4132431B76C29D3 /* GRKOpenSSLFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRKOpenSSLFramework.debug.xcconfig; sourceTree = "<group>"; };
+		4D06CC67949D14F47DE84596A27A7965 /* BigInt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.release.xcconfig; sourceTree = "<group>"; };
+		4D73354BEA9074DAB411689E34957726 /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = EosioSwift/Extensions/ArrayExtensions.swift; sourceTree = "<group>"; };
+		4D8086C8C46A9120B5334241130AEEB5 /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
+		4D91284EE6892A2D64ACA42B17A8A26B /* EosioRpcProviderEndpointsPromises.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioRpcProviderEndpointsPromises.swift; path = EosioSwift/EosioRpcProvider/Endpoints/EosioRpcProviderEndpointsPromises.swift; sourceTree = "<group>"; };
+		4D99CD8FC224C994B68993A75C3E9004 /* julian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = julian.h; path = EosioSwiftAbieosSerializationProvider/date/julian.h; sourceTree = "<group>"; };
+		51ACDB6A0F1BB6B0FA1783A7BC6EC4B3 /* encodings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encodings.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/encodings.h; sourceTree = "<group>"; };
+		5204342330FE00687ECE99FE8EF1FDCE /* EcdsaSignature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EcdsaSignature.swift; path = EosioSwiftEcc/Sign/EcdsaSignature.swift; sourceTree = "<group>"; };
+		5284D7212383DB9C207C103FAEB4A0FE /* EosioSwiftEcc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EosioSwiftEcc.framework; path = EosioSwiftEcc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D23172386CCA217D786F9A72048EA5 /* filereadstream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filereadstream.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/filereadstream.h; sourceTree = "<group>"; };
+		53C581A4E46083AFFFD6B7A922ECFA57 /* EosioResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioResult.swift; path = EosioSwift/Foundation/EosioResult.swift; sourceTree = "<group>"; };
+		549D88EDFD28BD8D43DA692C6088B8BF /* EosioSwiftAbieosSerializationProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EosioSwiftAbieosSerializationProvider.modulemap; sourceTree = "<group>"; };
+		555BF6066B4D61BE2A055785D0D9D9B0 /* fuzzer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fuzzer.cpp; path = EosioSwiftAbieosSerializationProvider/fuzzer.cpp; sourceTree = "<group>"; };
+		573AD574CF9DB6B17921A63DEC488AEE /* stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/stream.h; sourceTree = "<group>"; };
+		577FC403E827C8789A8C1A81F3023BB1 /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = Sources/GCD.swift; sourceTree = "<group>"; };
+		594892C83EC6534E28B5D691EF6055A6 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		59F42720D6C31BD570F5654F13245F23 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/stack.h; sourceTree = "<group>"; };
+		5B608C12DDF09F3DF09BD6D7E9AD9CE6 /* abieos_numeric.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos_numeric.hpp; path = EosioSwiftAbieosSerializationProvider/abieos_numeric.hpp; sourceTree = "<group>"; };
+		5BEFEF5A3839C930CDC47086DB1F6A59 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
+		5DC263899A08A2C10847D2E4219B786D /* EosioEccSign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioEccSign.swift; path = EosioSwiftEcc/Sign/EosioEccSign.swift; sourceTree = "<group>"; };
+		5DED0E6F49F1445A00EA9032ACE68FE3 /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = Sources/Exponentiation.swift; sourceTree = "<group>"; };
+		5E8B2236931CD36F5D947EB40DB50E93 /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/fwd.h; sourceTree = "<group>"; };
+		600B48DE844587337C61182322489767 /* EosioSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwift-prefix.pch"; sourceTree = "<group>"; };
+		60A0E4CD4A77CDA01092C6D360D5A332 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
+		6423FDAD3794FBA23084D894B2D958E1 /* abieos.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos.cpp; path = EosioSwiftAbieosSerializationProvider/abieos.cpp; sourceTree = "<group>"; };
+		6493598A1E713C385602B7C50881F687 /* Pods-MobileUser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobileUser-Info.plist"; sourceTree = "<group>"; };
+		6505749F4377873E5779445818568512 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openssl.framework; path = "OpenSSL-iOS/bin/openssl.framework"; sourceTree = "<group>"; };
+		6599255F07EA35B1D224CFE7AC5D8BE1 /* pointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pointer.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/pointer.h; sourceTree = "<group>"; };
+		6627E0280A8177177CC85883C576FB57 /* GRKOpenSSLFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRKOpenSSLFramework.release.xcconfig; sourceTree = "<group>"; };
+		68A66D84A0F2D2FCE8866FAB69D3C129 /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hashable.swift; path = Sources/Hashable.swift; sourceTree = "<group>"; };
+		69068B2578C40680A01F466D2E7A9085 /* EosioSwiftSoftkeySignatureProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EosioSwiftSoftkeySignatureProvider.h; path = EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider.h; sourceTree = "<group>"; };
+		6907B004182D8F9BE87A85AE8E5B7E26 /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = Sources/Shifts.swift; sourceTree = "<group>"; };
+		692D120ABE0645F24F2EA086EBE585BA /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplication.swift; path = Sources/Multiplication.swift; sourceTree = "<group>"; };
+		693CE9018C2F1FFAD01A6F3D56DB87CA /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
+		6C12F58A0C41ECF676D9EFF37676C55C /* Pods-MobileUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobileUser-umbrella.h"; sourceTree = "<group>"; };
+		6CE7A0C1730B0F2FE96B9D89939B20EB /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = error.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/error/error.h; sourceTree = "<group>"; };
+		70506BE0F133797ED02979B1FC1703C0 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
+		7076C683511C6311D29E96A854C00A56 /* Pods-MobileUser-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobileUser-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7301062D5178D939C6A2DB3660A69996 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
+		740A5720B5E6DFFF3949A2F17164B693 /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
+		7437DB82505F2CD6C4A7C1D9589F39DC /* AllResponseProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllResponseProtocols.swift; path = EosioSwift/EosioRpcProviderProtocol/RpcResponseProtocols/AllResponseProtocols.swift; sourceTree = "<group>"; };
+		7621E886A767E180F621D08AE52AED05 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
+		7633BF4D496E4F1DB0FDFB599FF5FAF1 /* pow10.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pow10.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/pow10.h; sourceTree = "<group>"; };
+		76FF834145759CA63BE9AF25F2A045BD /* race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = race.m; path = Sources/race.m; sourceTree = "<group>"; };
+		774D915160D1557D984158BAE859CA33 /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogEvent.swift; path = Sources/LogEvent.swift; sourceTree = "<group>"; };
+		776AD25AF89E31A91E0A511196B3770C /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		7949B035F8129E18546FE49C5AA770D4 /* regex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regex.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/regex.h; sourceTree = "<group>"; };
+		7963CC6B42BB71686585EC03359C4C7C /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
+		79FA804F1C13F3CB067CFAA1B02E1E09 /* BigInt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-umbrella.h"; sourceTree = "<group>"; };
+		7A741170129600A49AEDD087FDB16B07 /* itoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = itoa.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/itoa.h; sourceTree = "<group>"; };
+		7A7478C267E9A1DAC7A26C3FCD4ADC87 /* RpcProviderResponseModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RpcProviderResponseModels.swift; path = EosioSwift/EosioRpcProvider/Models/RpcProviderResponseModels.swift; sourceTree = "<group>"; };
+		7D2ABA4A376562F341BFA65127180C24 /* document.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = document.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/document.h; sourceTree = "<group>"; };
+		805416C42F1E964CD76E7846FAD2A353 /* EosioSwiftSoftkeySignatureProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwiftSoftkeySignatureProvider.debug.xcconfig; sourceTree = "<group>"; };
+		860690D2A2B226D402AC497104655CC7 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
+		87CE40A60EA7206AA86DB2AECA424DA2 /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
+		8889524C8A479366FC77E44A3CA5C1D8 /* UIViewPropertyAnimator+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewPropertyAnimator+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewPropertyAnimator+Promise.swift"; sourceTree = "<group>"; };
+		88F94C10759C11A2D7E656E90C5E3516 /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = Sources/Codable.swift; sourceTree = "<group>"; };
+		89C204FC2B5CDCC566556AD53C4A1D98 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
+		89F479B5D668A977801D960BCAD6D949 /* EllipticCurveType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EllipticCurveType.swift; path = EosioSwiftEcc/EllipticCurveType.swift; sourceTree = "<group>"; };
+		8A0BCDB169CA545A0963B0B5993F7950 /* chrono_io.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chrono_io.h; path = EosioSwiftAbieosSerializationProvider/date/chrono_io.h; sourceTree = "<group>"; };
+		8A483A71F9CC3F31E31C810AEA8369F5 /* EosioTransactionAbis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioTransactionAbis.swift; path = EosioSwift/EosioTransaction/EosioTransactionAbis.swift; sourceTree = "<group>"; };
+		8B4CFC195E4CDA61953FC73B3076A3E2 /* Pods-MobileUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobileUser-dummy.m"; sourceTree = "<group>"; };
+		8B5D471835B68489D9A0AD3082048082 /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = Sources/Subtraction.swift; sourceTree = "<group>"; };
+		8B874A71359BE203A05EEFD8787EA6E8 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = EosioSwift/Extensions/DictionaryExtensions.swift; sourceTree = "<group>"; };
+		8BA95086331BA0D4EB936FE375F578DC /* allocators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allocators.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/allocators.h; sourceTree = "<group>"; };
+		8BAD1EDE32399E2BB24CC5E621C3D8B5 /* Square Root.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Square Root.swift"; path = "Sources/Square Root.swift"; sourceTree = "<group>"; };
+		8C815F2767A83DD4B3CFC77FE753E451 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = Sources/Comparable.swift; sourceTree = "<group>"; };
+		8D54E5E8C0557AECDBDD994C4233536A /* EosioSwiftEcc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftEcc-umbrella.h"; sourceTree = "<group>"; };
+		8D5C41F44AC23F2E440959841E64563C /* en.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = en.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/error/en.h; sourceTree = "<group>"; };
+		8E88E0CB1240BA5AA08C70ED951CDD38 /* ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ios.h; path = EosioSwiftAbieosSerializationProvider/date/ios.h; sourceTree = "<group>"; };
+		8FEA4D9E585E9DCDC359D52CE57F8DA6 /* EosioSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwift.debug.xcconfig; sourceTree = "<group>"; };
+		9051074842069459A75804354B19B09C /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
+		91535337D4C863DA3381CC5F569CE3A9 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
+		91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigInt.framework; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9237867214867A280747039CA1C66AB4 /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
+		92F1B10EFE9532907F0D33DC8C0EF86F /* EncodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncodableExtensions.swift; path = EosioSwift/Extensions/EncodableExtensions.swift; sourceTree = "<group>"; };
+		936F7D6A5E573964F71409D62826A8BB /* EosioSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EosioSwift.framework; path = EosioSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9454C7CD444FF53871BB271FC0068251 /* BigInt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-dummy.m"; sourceTree = "<group>"; };
+		97007B0A9FDFFA55D33C45D353DAEA9F /* Floating Point Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Floating Point Conversion.swift"; path = "Sources/Floating Point Conversion.swift"; sourceTree = "<group>"; };
+		995AE135A5749D7CDE48F43888FD1EAC /* RIPEMD160.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RIPEMD160.swift; path = EosioSwift/Crypto/RIPEMD160.swift; sourceTree = "<group>"; };
+		99BA921B6D8ABB6C983843FB133B2F9C /* Guarantee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Guarantee.swift; path = Sources/Guarantee.swift; sourceTree = "<group>"; };
+		99CF28F2C35517690FA56940CA8EFA58 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
+		9A49052159FAD304B04A1458BB26018C /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
+		9A4EE1BB66705481D23EEFF845CE42CB /* cursorstreamwrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cursorstreamwrapper.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/cursorstreamwrapper.h; sourceTree = "<group>"; };
+		9C55D265E4D76494E507965713977166 /* EosioSoftkeySignatureProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioSoftkeySignatureProvider.swift; path = EosioSwiftSoftkeySignatureProvider/EosioSoftkeySignatureProvider.swift; sourceTree = "<group>"; };
+		9D217C53AECF4DC91A392A2D7E7C335D /* EosioRpcProviderEndpointsCallbacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioRpcProviderEndpointsCallbacks.swift; path = EosioSwift/EosioRpcProvider/Endpoints/EosioRpcProviderEndpointsCallbacks.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0274C44231AC5A90A6B3316534DA6B3 /* EosioInt64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioInt64.swift; path = EosioSwift/EosioRpcProvider/Models/EosioInt64.swift; sourceTree = "<group>"; };
+		A4AB6A606B68219F37A671DAF9186367 /* BigInt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BigInt.modulemap; sourceTree = "<group>"; };
+		A77CEED368D5ADA3E59AB3D36B9DB3C2 /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
+		A839AD7A615A39B394C3B364AEAED204 /* EosioAbieosSerializationProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioAbieosSerializationProvider.swift; path = EosioSwiftAbieosSerializationProvider/EosioAbieosSerializationProvider.swift; sourceTree = "<group>"; };
+		A965AEAAC6E655B9A8FC70E03D49F910 /* EosioSwiftEcc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EosioSwiftEcc-Info.plist"; sourceTree = "<group>"; };
+		A966221B562F793D000D7DE609C26063 /* abi.abi.json */ = {isa = PBXFileReference; includeInIndex = 1; name = abi.abi.json; path = EosioSwiftAbieosSerializationProvider/abi.abi.json; sourceTree = "<group>"; };
+		A9E06C0227A5B95DE9E64B8BE2CA5263 /* PromiseKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromiseKit-Info.plist"; sourceTree = "<group>"; };
+		AA259D7AB8D5A83C68403D8E94335A63 /* Catchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catchable.swift; path = Sources/Catchable.swift; sourceTree = "<group>"; };
+		AC854074DD84B65C4427B7952DB77238 /* writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = writer.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/writer.h; sourceTree = "<group>"; };
+		AD701D31F1BA00302DC16F0EFBFD796B /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = EosioSwift/Extensions/StringExtensions.swift; sourceTree = "<group>"; };
+		ADCF97E328FEA8AE24D42A99783DDC35 /* EosioAbiProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioAbiProvider.swift; path = EosioSwift/EosioAbiProviderProtocol/EosioAbiProvider.swift; sourceTree = "<group>"; };
+		AE440A9187FF5D449104189111C7DE98 /* ResourceBundle-EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider-Info.plist"; sourceTree = "<group>"; };
+		AE9E92C41FB0E1A944C373DA4F09F14B /* ResolverExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResolverExtensions.swift; path = EosioSwift/Extensions/ResolverExtensions.swift; sourceTree = "<group>"; };
+		B2172C766A9B92B66896A65809860C11 /* EosioSwiftAbieosSerializationProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftAbieosSerializationProvider-umbrella.h"; sourceTree = "<group>"; };
+		B22AB7C23BF241A6CBF2F5CEEA3C40C1 /* prettywriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prettywriter.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/prettywriter.h; sourceTree = "<group>"; };
+		B328EC8D7093CE731A1E23389C788136 /* EosioSignatureProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioSignatureProviderProtocol.swift; path = EosioSwift/EosioSignatureProviderProtocol/EosioSignatureProviderProtocol.swift; sourceTree = "<group>"; };
+		B630A9B395645634667D6AD7A2DE4DDE /* Thenable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thenable.swift; path = Sources/Thenable.swift; sourceTree = "<group>"; };
+		B733FE4DC2EB4B79E579B06B3BED89B7 /* ieee754.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ieee754.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/ieee754.h; sourceTree = "<group>"; };
+		B780B51C551FF2CD9D2BF20CC7B779B0 /* EosioRpcProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioRpcProviderProtocol.swift; path = EosioSwift/EosioRpcProviderProtocol/EosioRpcProviderProtocol.swift; sourceTree = "<group>"; };
+		B83E8B736893095DA1FFC4CC2B8FB8D1 /* date.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = date.h; path = EosioSwiftAbieosSerializationProvider/date/date.h; sourceTree = "<group>"; };
+		B9B64B9A3D547AD3CCC047E384B2774A /* abieos_ripemd160.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos_ripemd160.hpp; path = EosioSwiftAbieosSerializationProvider/abieos_ripemd160.hpp; sourceTree = "<group>"; };
+		BA172E4A7CB741EF344DB6A672D9791B /* EosioSwiftAbieosSerializationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EosioSwiftAbieosSerializationProvider.h; path = EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.h; sourceTree = "<group>"; };
+		BB5D1F6882ED573A00F54F3259FA64CE /* EosioSwiftAbieosSerializationProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwiftAbieosSerializationProvider.debug.xcconfig; sourceTree = "<group>"; };
+		BC2DD997E418B3A10DB586E69089BA3E /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
+		BC580E7CAF91562E61195BBFC0E54180 /* BigInt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-prefix.pch"; sourceTree = "<group>"; };
+		BD03BF99BF3BDFFA83CF7CC41978F1B9 /* ZAssert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZAssert.swift; path = EosioSwift/Foundation/ZAssert.swift; sourceTree = "<group>"; };
+		BDC8CA9F33B28CF2E09B5DCA1BA8023D /* fuzzer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fuzzer.hpp; path = EosioSwiftAbieosSerializationProvider/fuzzer.hpp; sourceTree = "<group>"; };
+		BEDBD0AB6A94AAD664A1FD76A69D1BCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BF04711DB41B39F37796D9AFF63EB6B4 /* EosioSwiftAbieosSerializationProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwiftAbieosSerializationProvider.release.xcconfig; sourceTree = "<group>"; };
+		BF149298C377C29620F92AED0FB45625 /* abieos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = abieos.h; path = EosioSwiftAbieosSerializationProvider/abieos.h; sourceTree = "<group>"; };
+		C15F5433117712B7BB01F8138520D0BF /* firstly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = firstly.swift; path = Sources/firstly.swift; sourceTree = "<group>"; };
+		C1600DD7DB587498B51A12E48F32A872 /* memorybuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memorybuffer.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/memorybuffer.h; sourceTree = "<group>"; };
+		C19F36A5EA32894DCFAB741DFEE375A4 /* EosioSwiftEcc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftEcc-prefix.pch"; sourceTree = "<group>"; };
+		C1B96DD06703492FD26F4CAC269EC7B6 /* istreamwrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = istreamwrapper.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/istreamwrapper.h; sourceTree = "<group>"; };
+		C1F0920CE99CC792968FCEFAE87D7CD1 /* EosioSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EosioSwift-Info.plist"; sourceTree = "<group>"; };
+		C36454C07C0B89A795206C7ADF499425 /* Pods_MobileUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MobileUser.framework; path = "Pods-MobileUser.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FBAC829AF59CC1D12CC9C5BB97E9E2 /* EosioSwiftAbieosSerializationProvider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EosioSwiftAbieosSerializationProvider-Info.plist"; sourceTree = "<group>"; };
+		C81564C8DA1822DF9630D48655789CBC /* EosioSwiftSoftkeySignatureProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EosioSwiftSoftkeySignatureProvider.modulemap; sourceTree = "<group>"; };
+		C960CAC254D9F3387212CD9FE7E83E54 /* Words and Bits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Words and Bits.swift"; path = "Sources/Words and Bits.swift"; sourceTree = "<group>"; };
+		CCBC8C8CA85F0683A2D9877C9FAFCA6D /* EosioUInt64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioUInt64.swift; path = EosioSwift/EosioRpcProvider/Models/EosioUInt64.swift; sourceTree = "<group>"; };
+		CDB5113714DE16F952BFD64C87D566CF /* Pods-MobileUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobileUser.release.xcconfig"; sourceTree = "<group>"; };
+		CEE02D72F9E58230DDC398C72DBC4DDC /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		CF203BDFAF00065ECF4A1F1BC238364D /* Pods-MobileUser-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobileUser-frameworks.sh"; sourceTree = "<group>"; };
+		D2B111F9ADE68A9EE80963A8B7A55A23 /* Prime Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Prime Test.swift"; path = "Sources/Prime Test.swift"; sourceTree = "<group>"; };
+		D359301A460E57FA7BA86D6B5C96EAD6 /* tz_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tz_private.h; path = EosioSwiftAbieosSerializationProvider/date/tz_private.h; sourceTree = "<group>"; };
+		D3A3C6078FD01D7CF1D4B94EBCCC5FD5 /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = Sources/Division.swift; sourceTree = "<group>"; };
+		D42929A6EF95BD785ED509144D29FC6A /* EosioSwiftSoftkeySignatureProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftSoftkeySignatureProvider-prefix.pch"; sourceTree = "<group>"; };
+		D450339C53FF8FE79F6D89FF6C69326C /* EosioError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioError.swift; path = EosioSwift/Foundation/EosioError.swift; sourceTree = "<group>"; };
+		D6D089B5CB46A1482F62F6AD167FF6AF /* PromiseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.debug.xcconfig; sourceTree = "<group>"; };
+		D886C530C0E90C04DE5C2BADBE8CA5E6 /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
+		D996F8FD815E16FEC3E5606A9FF84C9D /* EosioSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EosioSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC04AFBF3A7AD9DD2E711C0B415F8D6D /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
+		DE71AA378CB1C190A39AF13A2030A861 /* meta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = meta.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/meta.h; sourceTree = "<group>"; };
+		DEFCE7F3334EC0C277981E24421367F7 /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String Conversion.swift"; path = "Sources/String Conversion.swift"; sourceTree = "<group>"; };
+		DF1273B006B22D494EBB63913CBF2DEF /* islamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = islamic.h; path = EosioSwiftAbieosSerializationProvider/date/islamic.h; sourceTree = "<group>"; };
+		DF1B8AA1CB77ECC25D3EEE0DC2CC94DA /* EosioSwiftEcc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwiftEcc.debug.xcconfig; sourceTree = "<group>"; };
+		DF8A6B7BABF876673C749A92D0EB659C /* EosioTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioTransaction.swift; path = EosioSwift/EosioTransaction/EosioTransaction.swift; sourceTree = "<group>"; };
+		E04CD77E735C1B6E5741839CB9AD9EF8 /* EosioName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioName.swift; path = EosioSwift/Foundation/EosioName.swift; sourceTree = "<group>"; };
+		E2C9741CE793AD8B63A22A4A7A6F6165 /* Pods-MobileUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobileUser.debug.xcconfig"; sourceTree = "<group>"; };
+		E2EFCD4C0FD6D861D436D4CE21899CAD /* EosioSwiftAbieosSerializationProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EosioSwiftAbieosSerializationProvider.framework; path = EosioSwiftAbieosSerializationProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54FA18B3D065DE051FD45865A21B0C0 /* filewritestream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filewritestream.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/filewritestream.h; sourceTree = "<group>"; };
+		E5BA57A1D93F9E9D836F2F5D324B6857 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		E76336A216E2A01B0CD9AA9FB538F590 /* EosioSwiftEcc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EosioSwiftEcc.modulemap; sourceTree = "<group>"; };
+		E8DD7C94DCD2DA79BD1574FC6022BA93 /* DynamicKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicKey.swift; path = EosioSwift/Foundation/DynamicKey.swift; sourceTree = "<group>"; };
+		EB0483E2A51FAC5E471016D051582503 /* EosioSwiftAbieosSerializationProvider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EosioSwiftAbieosSerializationProvider.bundle; path = "EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA6287ADFD4B71FB1C3232B732549DC /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDF158B11D772C1D6F7819B1F8DA7BF /* rapidjson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rapidjson.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/rapidjson.h; sourceTree = "<group>"; };
+		EDFA1CA1C8620F2373590B14C5DD3A85 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
+		EE60F1E836FDC0A835FAF529A48FAB4B /* EosioSwiftSoftkeySignatureProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftSoftkeySignatureProvider-umbrella.h"; sourceTree = "<group>"; };
+		EFB6A6AF6B17B9CF14C1057AD5F0C91E /* EosioSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwift.release.xcconfig; sourceTree = "<group>"; };
+		F0B4DC096B57224EE85D557E0D8F755C /* EosioAbiProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioAbiProviderProtocol.swift; path = EosioSwift/EosioAbiProviderProtocol/EosioAbiProviderProtocol.swift; sourceTree = "<group>"; };
+		F19B57DC90455B66A30736635CD1FCEE /* diyfp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = diyfp.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/diyfp.h; sourceTree = "<group>"; };
+		F270D1A6514FCBA26824FEB428363C08 /* abieos.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos.hpp; path = EosioSwiftAbieosSerializationProvider/abieos.hpp; sourceTree = "<group>"; };
+		F95BDC43D9CF39EE32997DF642F94534 /* reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reader.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/reader.h; sourceTree = "<group>"; };
+		F99D1CE17209F345C756FD2DED62DFA4 /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
+		F9AD52677F99DDD323959BA8C3B34254 /* encodedstream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encodedstream.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/encodedstream.h; sourceTree = "<group>"; };
+		F9E9E96B8FE4F346A906604EB2BD1A7A /* EosioRpcProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioRpcProvider.swift; path = EosioSwift/EosioRpcProvider/EosioRpcProvider.swift; sourceTree = "<group>"; };
+		F9FE6C38BC6E9E0D910247872F3B28F8 /* EosioSwiftAbieosSerializationProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EosioSwiftAbieosSerializationProvider-dummy.m"; sourceTree = "<group>"; };
+		FA16ED1675D9B8DC190E2480A1552DC2 /* EosioSwiftEcc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EosioSwiftEcc.h; path = EosioSwiftEcc/EosioSwiftEcc.h; sourceTree = "<group>"; };
+		FA4250F97DE46EA7615A829EA6644F26 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
+		FACF919DB53C090829FD1918E52C9258 /* Data Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data Conversion.swift"; path = "Sources/Data Conversion.swift"; sourceTree = "<group>"; };
+		FB2B40C683809D98A882630F8B91D56D /* EosioSwiftSoftkeySignatureProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EosioSwiftSoftkeySignatureProvider.framework; path = EosioSwiftSoftkeySignatureProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBE9F4B84DC27BF01C62B2D832181B2 /* EosioKeySignatureExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioKeySignatureExtensions.swift; path = EosioSwift/Extensions/EosioKeySignatureExtensions.swift; sourceTree = "<group>"; };
+		FC5D157EA710F6E56A4AA7AEA7F701B9 /* transaction.abi.json */ = {isa = PBXFileReference; includeInIndex = 1; name = transaction.abi.json; path = EosioSwiftAbieosSerializationProvider/transaction.abi.json; sourceTree = "<group>"; };
+		FEE97E45D9234B0D47F43DE267C12227 /* eosio.assert.abi.json */ = {isa = PBXFileReference; includeInIndex = 1; name = eosio.assert.abi.json; path = EosioSwiftAbieosSerializationProvider/eosio.assert.abi.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A7372EC6B741F706993792E4C068BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11311D70953AC99174A763E25F665920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5830F8370A4DCA48A3EB4EA3DD2E9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190CB80FC7D27E23018F13F104DA46C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C918925FAB9E12D50178A93DE04725F /* EosioSwift.framework in Frameworks */,
+				DB85B16DBABC7066B213DA323FE40E4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EC158A47990A1AEECCC30609D58F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ED21D43B8C52F0C716E1B3D1C8D043 /* Foundation.framework in Frameworks */,
+				8EA33100BCDE9E4407E5114B9B125D8E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B345E337F1EA2C14D49AFB739581F987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D468F912B568A930B415E0733A4A099 /* EosioSwift.framework in Frameworks */,
+				4317BC40FE4F2FCCBCABDEFBF7622338 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9489F1237772BFE28EEE825CC46220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E62DD276DCA188E41934EAFCEE3C34 /* BigInt.framework in Frameworks */,
+				E3A201E552D0766EDAF2AE3E868852DD /* Foundation.framework in Frameworks */,
+				A5007A3381CE2662149F2D9FC5958CF5 /* PromiseKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA95F014F34DF892F935111FFB8466D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6315FB4894D7BBA9D80A939F89C5D08A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3A558AC0207BBAC8415AAF45BF5671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B587B9CFFA7188BB227158666E70929 /* EosioSwift.framework in Frameworks */,
+				EC2077F20B20F382DEFB0078ABE4887E /* EosioSwiftEcc.framework in Frameworks */,
+				23FB2BEB21C50FC9EC6C4866F244EF9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05872381C72151C44D5858530858B6CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89C204FC2B5CDCC566556AD53C4A1D98 /* PromiseKit.modulemap */,
+				594892C83EC6534E28B5D691EF6055A6 /* PromiseKit-dummy.m */,
+				A9E06C0227A5B95DE9E64B8BE2CA5263 /* PromiseKit-Info.plist */,
+				70506BE0F133797ED02979B1FC1703C0 /* PromiseKit-prefix.pch */,
+				693CE9018C2F1FFAD01A6F3D56DB87CA /* PromiseKit-umbrella.h */,
+				D6D089B5CB46A1482F62F6AD167FF6AF /* PromiseKit.debug.xcconfig */,
+				2DF1545C64154E989E95EA0152E2FD97 /* PromiseKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromiseKit";
+			sourceTree = "<group>";
+		};
+		13F97FB9187FC5CD879E0580EAD1AB76 /* CorePromise */ = {
+			isa = PBXGroup;
+			children = (
+				5BEFEF5A3839C930CDC47086DB1F6A59 /* after.m */,
+				BC2DD997E418B3A10DB586E69089BA3E /* after.swift */,
+				48397F4F30E348C1606B35515037ED38 /* AnyPromise.h */,
+				DC04AFBF3A7AD9DD2E711C0B415F8D6D /* AnyPromise.m */,
+				87CE40A60EA7206AA86DB2AECA424DA2 /* AnyPromise.swift */,
+				0DA168E06B40C445B52BF7FF23A249F4 /* Box.swift */,
+				AA259D7AB8D5A83C68403D8E94335A63 /* Catchable.swift */,
+				60A0E4CD4A77CDA01092C6D360D5A332 /* Configuration.swift */,
+				7963CC6B42BB71686585EC03359C4C7C /* CustomStringConvertible.swift */,
+				9051074842069459A75804354B19B09C /* Deprecations.swift */,
+				2779E135F6E51C8657143D34573218EC /* dispatch_promise.m */,
+				776AD25AF89E31A91E0A511196B3770C /* Error.swift */,
+				C15F5433117712B7BB01F8138520D0BF /* firstly.swift */,
+				A77CEED368D5ADA3E59AB3D36B9DB3C2 /* fwd.h */,
+				99BA921B6D8ABB6C983843FB133B2F9C /* Guarantee.swift */,
+				740A5720B5E6DFFF3949A2F17164B693 /* hang.m */,
+				32E42A43C3D13A19610968A4EA50DE05 /* hang.swift */,
+				483919F3642204D96477B3A6B651E325 /* join.m */,
+				774D915160D1557D984158BAE859CA33 /* LogEvent.swift */,
+				7621E886A767E180F621D08AE52AED05 /* Promise.swift */,
+				E5BA57A1D93F9E9D836F2F5D324B6857 /* PromiseKit.h */,
+				76FF834145759CA63BE9AF25F2A045BD /* race.m */,
+				D886C530C0E90C04DE5C2BADBE8CA5E6 /* race.swift */,
+				91535337D4C863DA3381CC5F569CE3A9 /* Resolver.swift */,
+				B630A9B395645634667D6AD7A2DE4DDE /* Thenable.swift */,
+				99CF28F2C35517690FA56940CA8EFA58 /* when.m */,
+				CEE02D72F9E58230DDC398C72DBC4DDC /* when.swift */,
+			);
+			name = CorePromise;
+			sourceTree = "<group>";
+		};
+		173A82230B0610A367ED5198A0C2A764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6287ADFD4B71FB1C3232B732549DC /* BigInt.framework */,
+				D996F8FD815E16FEC3E5606A9FF84C9D /* EosioSwift.framework */,
+				0CA22D149C81CE990A47ADE494520F8E /* EosioSwiftEcc.framework */,
+				007FA720985D5EA60DDCB8B1087798C8 /* PromiseKit.framework */,
+				DF833CA31EDAD7BA5C4305E0DCFEE152 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BF8D84B079F9AEAA503BB699DBBFD3E /* EosioSwiftEcc */ = {
+			isa = PBXGroup;
+			children = (
+				39123FA3F0708B7260DE5FB64FC3CBDA /* EccRecoverKey.swift */,
+				5204342330FE00687ECE99FE8EF1FDCE /* EcdsaSignature.swift */,
+				89F479B5D668A977801D960BCAD6D949 /* EllipticCurveType.swift */,
+				5DC263899A08A2C10847D2E4219B786D /* EosioEccSign.swift */,
+				FA16ED1675D9B8DC190E2480A1552DC2 /* EosioSwiftEcc.h */,
+				2307CC784D280CC8D826FC6A0EC43C82 /* recover.cpp */,
+				177155C4D5A9856C579BA03AC80A20EC /* recover.h */,
+				B4F71F6FE6D0387E9D131CE4C8A40E21 /* Support Files */,
+			);
+			name = EosioSwiftEcc;
+			path = EosioSwiftEcc;
+			sourceTree = "<group>";
+		};
+		4B2695F09836DD6878E392FAD193EAC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C81564C8DA1822DF9630D48655789CBC /* EosioSwiftSoftkeySignatureProvider.modulemap */,
+				3595B61829E852566C858CF815B5E448 /* EosioSwiftSoftkeySignatureProvider-dummy.m */,
+				38141FDB0D78A932588C8075DC2506D2 /* EosioSwiftSoftkeySignatureProvider-Info.plist */,
+				D42929A6EF95BD785ED509144D29FC6A /* EosioSwiftSoftkeySignatureProvider-prefix.pch */,
+				EE60F1E836FDC0A835FAF529A48FAB4B /* EosioSwiftSoftkeySignatureProvider-umbrella.h */,
+				805416C42F1E964CD76E7846FAD2A353 /* EosioSwiftSoftkeySignatureProvider.debug.xcconfig */,
+				0A5D34A5B5F612A7880B46C6FA253C10 /* EosioSwiftSoftkeySignatureProvider.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EosioSwiftSoftkeySignatureProvider";
+			sourceTree = "<group>";
+		};
+		53243E3D432AEDB509C909F3FBA4F191 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4AB6A606B68219F37A671DAF9186367 /* BigInt.modulemap */,
+				9454C7CD444FF53871BB271FC0068251 /* BigInt-dummy.m */,
+				02C5DA499D131405AF1DA00784AAC217 /* BigInt-Info.plist */,
+				BC580E7CAF91562E61195BBFC0E54180 /* BigInt-prefix.pch */,
+				79FA804F1C13F3CB067CFAA1B02E1E09 /* BigInt-umbrella.h */,
+				418EF995F5100A880599CCD8025C99F5 /* BigInt.debug.xcconfig */,
+				4D06CC67949D14F47DE84596A27A7965 /* BigInt.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BigInt";
+			sourceTree = "<group>";
+		};
+		6E1A8BABE3C975A1E420C4FADC910B65 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F99D1CE17209F345C756FD2DED62DFA4 /* PMKUIKit.h */,
+				28D8257463E516CF0BDDEF2F1C791B10 /* UIView+AnyPromise.h */,
+				11A8BC4DBA25E25B9E5CD438582245F6 /* UIView+AnyPromise.m */,
+				860690D2A2B226D402AC497104655CC7 /* UIView+Promise.swift */,
+				EDFA1CA1C8620F2373590B14C5DD3A85 /* UIViewController+AnyPromise.h */,
+				1F473A3F07426073EC769C512DD9EDA2 /* UIViewController+AnyPromise.m */,
+				8889524C8A479366FC77E44A3CA5C1D8 /* UIViewPropertyAnimator+Promise.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		6FAB753DA1C9BAF9254488491D75B396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */,
+				936F7D6A5E573964F71409D62826A8BB /* EosioSwift.framework */,
+				EB0483E2A51FAC5E471016D051582503 /* EosioSwiftAbieosSerializationProvider.bundle */,
+				E2EFCD4C0FD6D861D436D4CE21899CAD /* EosioSwiftAbieosSerializationProvider.framework */,
+				5284D7212383DB9C207C103FAEB4A0FE /* EosioSwiftEcc.framework */,
+				FB2B40C683809D98A882630F8B91D56D /* EosioSwiftSoftkeySignatureProvider.framework */,
+				C36454C07C0B89A795206C7ADF499425 /* Pods_MobileUser.framework */,
+				002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7640D30BFA87AB32A4A713AAE5CFB0EA /* EosioSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7437DB82505F2CD6C4A7C1D9589F39DC /* AllResponseProtocols.swift */,
+				4D73354BEA9074DAB411689E34957726 /* ArrayExtensions.swift */,
+				0C3AEC58780BBE67E072BA73826A8102 /* Base58String.swift */,
+				0FEC55B69DBF08B37ED697D512D35AD5 /* DataExtensions.swift */,
+				114A240D578EA560B8EF7D3BC0846DBB /* DateExtensions.swift */,
+				8B874A71359BE203A05EEFD8787EA6E8 /* DictionaryExtensions.swift */,
+				E8DD7C94DCD2DA79BD1574FC6022BA93 /* DynamicKey.swift */,
+				92F1B10EFE9532907F0D33DC8C0EF86F /* EncodableExtensions.swift */,
+				ADCF97E328FEA8AE24D42A99783DDC35 /* EosioAbiProvider.swift */,
+				F0B4DC096B57224EE85D557E0D8F755C /* EosioAbiProviderProtocol.swift */,
+				D450339C53FF8FE79F6D89FF6C69326C /* EosioError.swift */,
+				A0274C44231AC5A90A6B3316534DA6B3 /* EosioInt64.swift */,
+				FBBE9F4B84DC27BF01C62B2D832181B2 /* EosioKeySignatureExtensions.swift */,
+				E04CD77E735C1B6E5741839CB9AD9EF8 /* EosioName.swift */,
+				53C581A4E46083AFFFD6B7A922ECFA57 /* EosioResult.swift */,
+				F9E9E96B8FE4F346A906604EB2BD1A7A /* EosioRpcProvider.swift */,
+				9D217C53AECF4DC91A392A2D7E7C335D /* EosioRpcProviderEndpointsCallbacks.swift */,
+				417F872918BA0C1BFAA48C6E765E29B6 /* EosioRpcProviderEndpointsForProtocol.swift */,
+				4D91284EE6892A2D64ACA42B17A8A26B /* EosioRpcProviderEndpointsPromises.swift */,
+				B780B51C551FF2CD9D2BF20CC7B779B0 /* EosioRpcProviderProtocol.swift */,
+				1EE62BCF5BB6ACEBA065BA6E9502D00B /* EosioSerializationProviderProtocol.swift */,
+				B328EC8D7093CE731A1E23389C788136 /* EosioSignatureProviderProtocol.swift */,
+				DF8A6B7BABF876673C749A92D0EB659C /* EosioTransaction.swift */,
+				8A483A71F9CC3F31E31C810AEA8369F5 /* EosioTransactionAbis.swift */,
+				2104F240BD5722D8049BE903D3E3454D /* EosioTransactionAction.swift */,
+				0AAB7CB20862356FC8B62A16081A0FAC /* EosioTransactionFactory.swift */,
+				46B359844562152C8CFA8BDD978E3614 /* EosioTransactionPromises.swift */,
+				CCBC8C8CA85F0683A2D9877C9FAFCA6D /* EosioUInt64.swift */,
+				38B239E323CB9302F272E5B695676517 /* LinkedList.swift */,
+				2D2A0210B8411D4F5F03F7DFB7753A58 /* Queue.swift */,
+				2445E29CC11C1F3A26CAC173E9A4C6FB /* RequestModels.swift */,
+				AE9E92C41FB0E1A944C373DA4F09F14B /* ResolverExtensions.swift */,
+				995AE135A5749D7CDE48F43888FD1EAC /* RIPEMD160.swift */,
+				3104A0C57B054396D242D62F3F2EB39B /* RpcProviderRequestModels.swift */,
+				7A7478C267E9A1DAC7A26C3FCD4ADC87 /* RpcProviderResponseModels.swift */,
+				AD701D31F1BA00302DC16F0EFBFD796B /* StringExtensions.swift */,
+				BD03BF99BF3BDFFA83CF7CC41978F1B9 /* ZAssert.swift */,
+				C9CD3105D014C6C8D9F1A2956DD6A66B /* Support Files */,
+			);
+			name = EosioSwift;
+			path = EosioSwift;
+			sourceTree = "<group>";
+		};
+		786B9EF5BD5CF8CEB026B0A9A43140A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6505749F4377873E5779445818568512 /* openssl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E1E0AD9718150C09EDEAE6DD3FBBDED /* BigInt */ = {
+			isa = PBXGroup;
+			children = (
+				4347ED27674AD9D19E91B845C5A63B07 /* Addition.swift */,
+				27D0BEAA1678F1861FE544010F983FB0 /* BigInt.swift */,
+				055A1D41C44553E42D0FD511E17C18E1 /* BigUInt.swift */,
+				15F049E9262F42B6EDC579111651E3C7 /* Bitwise Ops.swift */,
+				88F94C10759C11A2D7E656E90C5E3516 /* Codable.swift */,
+				8C815F2767A83DD4B3CFC77FE753E451 /* Comparable.swift */,
+				FACF919DB53C090829FD1918E52C9258 /* Data Conversion.swift */,
+				D3A3C6078FD01D7CF1D4B94EBCCC5FD5 /* Division.swift */,
+				5DED0E6F49F1445A00EA9032ACE68FE3 /* Exponentiation.swift */,
+				97007B0A9FDFFA55D33C45D353DAEA9F /* Floating Point Conversion.swift */,
+				577FC403E827C8789A8C1A81F3023BB1 /* GCD.swift */,
+				68A66D84A0F2D2FCE8866FAB69D3C129 /* Hashable.swift */,
+				371B97A6712CAC570C9DE3ACCD8CE7F3 /* Integer Conversion.swift */,
+				692D120ABE0645F24F2EA086EBE585BA /* Multiplication.swift */,
+				D2B111F9ADE68A9EE80963A8B7A55A23 /* Prime Test.swift */,
+				1E78D48EB904C91E5EACB0631FD8E11E /* Random.swift */,
+				6907B004182D8F9BE87A85AE8E5B7E26 /* Shifts.swift */,
+				8BAD1EDE32399E2BB24CC5E621C3D8B5 /* Square Root.swift */,
+				3465132D7E186F4D6AA5D5DFE1ACCBF6 /* Strideable.swift */,
+				DEFCE7F3334EC0C277981E24421367F7 /* String Conversion.swift */,
+				8B5D471835B68489D9A0AD3082048082 /* Subtraction.swift */,
+				C960CAC254D9F3387212CD9FE7E83E54 /* Words and Bits.swift */,
+				53243E3D432AEDB509C909F3FBA4F191 /* Support Files */,
+			);
+			name = BigInt;
+			path = BigInt;
+			sourceTree = "<group>";
+		};
+		AECFC39765C29F5966C937E37C636EFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49393A5E4E196B3AF4132431B76C29D3 /* GRKOpenSSLFramework.debug.xcconfig */,
+				6627E0280A8177177CC85883C576FB57 /* GRKOpenSSLFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GRKOpenSSLFramework";
+			sourceTree = "<group>";
+		};
+		B204171F38470DBF42104A2D2C60B1CD /* Pods-MobileUser */ = {
+			isa = PBXGroup;
+			children = (
+				4336AA699D2111F8E3C0CBFA5955296D /* Pods-MobileUser.modulemap */,
+				7076C683511C6311D29E96A854C00A56 /* Pods-MobileUser-acknowledgements.markdown */,
+				06022F560F80624462203A641F038BFF /* Pods-MobileUser-acknowledgements.plist */,
+				8B4CFC195E4CDA61953FC73B3076A3E2 /* Pods-MobileUser-dummy.m */,
+				CF203BDFAF00065ECF4A1F1BC238364D /* Pods-MobileUser-frameworks.sh */,
+				6493598A1E713C385602B7C50881F687 /* Pods-MobileUser-Info.plist */,
+				6C12F58A0C41ECF676D9EFF37676C55C /* Pods-MobileUser-umbrella.h */,
+				E2C9741CE793AD8B63A22A4A7A6F6165 /* Pods-MobileUser.debug.xcconfig */,
+				CDB5113714DE16F952BFD64C87D566CF /* Pods-MobileUser.release.xcconfig */,
+			);
+			name = "Pods-MobileUser";
+			path = "Target Support Files/Pods-MobileUser";
+			sourceTree = "<group>";
+		};
+		B2641E0B3570E5343BC57DF41E96320D /* GRKOpenSSLFramework */ = {
+			isa = PBXGroup;
+			children = (
+				786B9EF5BD5CF8CEB026B0A9A43140A7 /* Frameworks */,
+				AECFC39765C29F5966C937E37C636EFF /* Support Files */,
+			);
+			name = GRKOpenSSLFramework;
+			path = GRKOpenSSLFramework;
+			sourceTree = "<group>";
+		};
+		B4F71F6FE6D0387E9D131CE4C8A40E21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E76336A216E2A01B0CD9AA9FB538F590 /* EosioSwiftEcc.modulemap */,
+				111FD127D72934329013CA778BC46F50 /* EosioSwiftEcc-dummy.m */,
+				A965AEAAC6E655B9A8FC70E03D49F910 /* EosioSwiftEcc-Info.plist */,
+				C19F36A5EA32894DCFAB741DFEE375A4 /* EosioSwiftEcc-prefix.pch */,
+				8D54E5E8C0557AECDBDD994C4233536A /* EosioSwiftEcc-umbrella.h */,
+				DF1B8AA1CB77ECC25D3EEE0DC2CC94DA /* EosioSwiftEcc.debug.xcconfig */,
+				0D971F6C13E280A72A638604E631F469 /* EosioSwiftEcc.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EosioSwiftEcc";
+			sourceTree = "<group>";
+		};
+		C9CD3105D014C6C8D9F1A2956DD6A66B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37895657AA0BE52ED6FC24315236E5FD /* EosioSwift.modulemap */,
+				0944229C7D260B816E2428BE0ECF99A5 /* EosioSwift-dummy.m */,
+				C1F0920CE99CC792968FCEFAE87D7CD1 /* EosioSwift-Info.plist */,
+				600B48DE844587337C61182322489767 /* EosioSwift-prefix.pch */,
+				197389109CE1A5FC4EF8E144B409EE80 /* EosioSwift-umbrella.h */,
+				8FEA4D9E585E9DCDC359D52CE57F8DA6 /* EosioSwift.debug.xcconfig */,
+				EFB6A6AF6B17B9CF14C1057AD5F0C91E /* EosioSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EosioSwift";
+			sourceTree = "<group>";
+		};
+		CA47DB41B2B0D960C838D20972CB1C70 /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				13F97FB9187FC5CD879E0580EAD1AB76 /* CorePromise */,
+				D83AFDFFCDAC97F772E5902B126E20EE /* Foundation */,
+				05872381C72151C44D5858530858B6CC /* Support Files */,
+				6E1A8BABE3C975A1E420C4FADC910B65 /* UIKit */,
+			);
+			name = PromiseKit;
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		CBC469D7D3C1AE3A64040E5B76C0B005 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A966221B562F793D000D7DE609C26063 /* abi.abi.json */,
+				FEE97E45D9234B0D47F43DE267C12227 /* eosio.assert.abi.json */,
+				FC5D157EA710F6E56A4AA7AEA7F701B9 /* transaction.abi.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CBDD355FDD8EABB3C6CFCC87B4D58C5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E1E0AD9718150C09EDEAE6DD3FBBDED /* BigInt */,
+				7640D30BFA87AB32A4A713AAE5CFB0EA /* EosioSwift */,
+				FA7194A2358A0A8FA87ACD1CD9CE08BC /* EosioSwiftAbieosSerializationProvider */,
+				2BF8D84B079F9AEAA503BB699DBBFD3E /* EosioSwiftEcc */,
+				F24EF6FBA86D7FE21FF0785EB45B9763 /* EosioSwiftSoftkeySignatureProvider */,
+				B2641E0B3570E5343BC57DF41E96320D /* GRKOpenSSLFramework */,
+				CA47DB41B2B0D960C838D20972CB1C70 /* PromiseKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				173A82230B0610A367ED5198A0C2A764 /* Frameworks */,
+				CBDD355FDD8EABB3C6CFCC87B4D58C5A /* Pods */,
+				6FAB753DA1C9BAF9254488491D75B396 /* Products */,
+				EE2506D6920B05C6435F96DBDBE81844 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D83AFDFFCDAC97F772E5902B126E20EE /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				9A49052159FAD304B04A1458BB26018C /* afterlife.swift */,
+				0669E39E53D7F89EAC6ECBE8DF997BCC /* NSNotificationCenter+AnyPromise.h */,
+				2AE40BD11B394649F302D19B396F750D /* NSNotificationCenter+AnyPromise.m */,
+				31779C002D0F3737F1F42E81EF970304 /* NSNotificationCenter+Promise.swift */,
+				FA4250F97DE46EA7615A829EA6644F26 /* NSObject+Promise.swift */,
+				16A209A58ECCB86CC906412347ED4C1B /* NSTask+AnyPromise.h */,
+				3A81A4BA191E7693F44F35FA3D5B2833 /* NSTask+AnyPromise.m */,
+				4D8086C8C46A9120B5334241130AEEB5 /* NSURLSession+AnyPromise.h */,
+				268222D29D0FBE258857E3862BF45266 /* NSURLSession+AnyPromise.m */,
+				9237867214867A280747039CA1C66AB4 /* NSURLSession+Promise.swift */,
+				7301062D5178D939C6A2DB3660A69996 /* PMKFoundation.h */,
+				09ADB8A3FDA1686D2649D088549DEBB3 /* Process+Promise.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		DD5394B2AB183320C14DD845531C1CD6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				549D88EDFD28BD8D43DA692C6088B8BF /* EosioSwiftAbieosSerializationProvider.modulemap */,
+				F9FE6C38BC6E9E0D910247872F3B28F8 /* EosioSwiftAbieosSerializationProvider-dummy.m */,
+				C7FBAC829AF59CC1D12CC9C5BB97E9E2 /* EosioSwiftAbieosSerializationProvider-Info.plist */,
+				13094A3F92ADDFF49F452BE78BE5420B /* EosioSwiftAbieosSerializationProvider-prefix.pch */,
+				B2172C766A9B92B66896A65809860C11 /* EosioSwiftAbieosSerializationProvider-umbrella.h */,
+				BB5D1F6882ED573A00F54F3259FA64CE /* EosioSwiftAbieosSerializationProvider.debug.xcconfig */,
+				BF04711DB41B39F37796D9AFF63EB6B4 /* EosioSwiftAbieosSerializationProvider.release.xcconfig */,
+				AE440A9187FF5D449104189111C7DE98 /* ResourceBundle-EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EosioSwiftAbieosSerializationProvider";
+			sourceTree = "<group>";
+		};
+		DF833CA31EDAD7BA5C4305E0DCFEE152 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBD0AB6A94AAD664A1FD76A69D1BCC /* Foundation.framework */,
+				4268972D8557D3E4F51F1CFDDF2EDD15 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE2506D6920B05C6435F96DBDBE81844 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B204171F38470DBF42104A2D2C60B1CD /* Pods-MobileUser */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F24EF6FBA86D7FE21FF0785EB45B9763 /* EosioSwiftSoftkeySignatureProvider */ = {
+			isa = PBXGroup;
+			children = (
+				9C55D265E4D76494E507965713977166 /* EosioSoftkeySignatureProvider.swift */,
+				69068B2578C40680A01F466D2E7A9085 /* EosioSwiftSoftkeySignatureProvider.h */,
+				4B2695F09836DD6878E392FAD193EAC4 /* Support Files */,
+			);
+			name = EosioSwiftSoftkeySignatureProvider;
+			path = EosioSwiftSoftkeySignatureProvider;
+			sourceTree = "<group>";
+		};
+		FA7194A2358A0A8FA87ACD1CD9CE08BC /* EosioSwiftAbieosSerializationProvider */ = {
+			isa = PBXGroup;
+			children = (
+				6423FDAD3794FBA23084D894B2D958E1 /* abieos.cpp */,
+				BF149298C377C29620F92AED0FB45625 /* abieos.h */,
+				F270D1A6514FCBA26824FEB428363C08 /* abieos.hpp */,
+				2D47EBD0307DF0B8C29D113F33D41AAF /* abieos_exception.hpp */,
+				5B608C12DDF09F3DF09BD6D7E9AD9CE6 /* abieos_numeric.hpp */,
+				B9B64B9A3D547AD3CCC047E384B2774A /* abieos_ripemd160.hpp */,
+				8BA95086331BA0D4EB936FE375F578DC /* allocators.h */,
+				033FD073455B56585F596F7F944359E4 /* biginteger.h */,
+				8A0BCDB169CA545A0963B0B5993F7950 /* chrono_io.h */,
+				9A4EE1BB66705481D23EEFF845CE42CB /* cursorstreamwrapper.h */,
+				B83E8B736893095DA1FFC4CC2B8FB8D1 /* date.h */,
+				F19B57DC90455B66A30736635CD1FCEE /* diyfp.h */,
+				7D2ABA4A376562F341BFA65127180C24 /* document.h */,
+				07437FAA18165C85328AAD8BA5FA1FBE /* dtoa.h */,
+				8D5C41F44AC23F2E440959841E64563C /* en.h */,
+				F9AD52677F99DDD323959BA8C3B34254 /* encodedstream.h */,
+				51ACDB6A0F1BB6B0FA1783A7BC6EC4B3 /* encodings.h */,
+				A839AD7A615A39B394C3B364AEAED204 /* EosioAbieosSerializationProvider.swift */,
+				BA172E4A7CB741EF344DB6A672D9791B /* EosioSwiftAbieosSerializationProvider.h */,
+				6CE7A0C1730B0F2FE96B9D89939B20EB /* error.h */,
+				52D23172386CCA217D786F9A72048EA5 /* filereadstream.h */,
+				E54FA18B3D065DE051FD45865A21B0C0 /* filewritestream.h */,
+				555BF6066B4D61BE2A055785D0D9D9B0 /* fuzzer.cpp */,
+				BDC8CA9F33B28CF2E09B5DCA1BA8023D /* fuzzer.hpp */,
+				5E8B2236931CD36F5D947EB40DB50E93 /* fwd.h */,
+				B733FE4DC2EB4B79E579B06B3BED89B7 /* ieee754.h */,
+				8E88E0CB1240BA5AA08C70ED951CDD38 /* ios.h */,
+				DF1273B006B22D494EBB63913CBF2DEF /* islamic.h */,
+				2A0D491901C6999F2204C09E2CAE0A3A /* iso_week.h */,
+				C1B96DD06703492FD26F4CAC269EC7B6 /* istreamwrapper.h */,
+				7A741170129600A49AEDD087FDB16B07 /* itoa.h */,
+				4D99CD8FC224C994B68993A75C3E9004 /* julian.h */,
+				C1600DD7DB587498B51A12E48F32A872 /* memorybuffer.h */,
+				489E61DF81008208F79151D04B18F353 /* memorystream.h */,
+				DE71AA378CB1C190A39AF13A2030A861 /* meta.h */,
+				001610C492434494E7FEBC2BA7D3252B /* ostreamwrapper.h */,
+				6599255F07EA35B1D224CFE7AC5D8BE1 /* pointer.h */,
+				7633BF4D496E4F1DB0FDFB599FF5FAF1 /* pow10.h */,
+				B22AB7C23BF241A6CBF2F5CEEA3C40C1 /* prettywriter.h */,
+				1DF4EDB7C9F393F65C3B82F581D0264A /* ptz.h */,
+				EDDF158B11D772C1D6F7819B1F8DA7BF /* rapidjson.h */,
+				F95BDC43D9CF39EE32997DF642F94534 /* reader.h */,
+				7949B035F8129E18546FE49C5AA770D4 /* regex.h */,
+				01D92D25275F00513DB962DFB1DDF089 /* schema.h */,
+				59F42720D6C31BD570F5654F13245F23 /* stack.h */,
+				573AD574CF9DB6B17921A63DEC488AEE /* stream.h */,
+				2F41519EE9F8EC464AF94211E37FEA83 /* strfunc.h */,
+				09154B7C5E17A856B2DF9FD14881E9B3 /* stringbuffer.h */,
+				30A6F24A211B86F304C7793D6C6E789F /* strtod.h */,
+				1D87A6E0E7B9ECDC4642B5D6FD96685E /* swap.h */,
+				08BBB1B7BC9C9C367137AAD8E91B00C0 /* tz.h */,
+				D359301A460E57FA7BA86D6B5C96EAD6 /* tz_private.h */,
+				AC854074DD84B65C4427B7952DB77238 /* writer.h */,
+				CBC469D7D3C1AE3A64040E5B76C0B005 /* Resources */,
+				DD5394B2AB183320C14DD845531C1CD6 /* Support Files */,
+			);
+			name = EosioSwiftAbieosSerializationProvider;
+			path = EosioSwiftAbieosSerializationProvider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		022F994F201FA06FAAF68179B08FBC78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E25893B868D03EAD2FB7C30878A3A40 /* EosioSwiftSoftkeySignatureProvider-umbrella.h in Headers */,
+				B4B47CBC5B93780E695C945F842C4F69 /* EosioSwiftSoftkeySignatureProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A90423E6A2D23171830C8A7DDCFDEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B424781FE83ED2FFE1571CB3451A9425 /* abieos.h in Headers */,
+				85C528BB72B0A0D3C8436DAC176C16CF /* abieos.hpp in Headers */,
+				943D700449737E6FBB45A3034D547A90 /* abieos_exception.hpp in Headers */,
+				DF042094A91EC61628323ABA9F72D812 /* abieos_numeric.hpp in Headers */,
+				1C0828D3D90FA220E84E40F5EB448683 /* abieos_ripemd160.hpp in Headers */,
+				9977A49674DF9EA2771DBE7E7CF7EB5B /* allocators.h in Headers */,
+				7C63C1E2B82FD233A7895CBE39E6A710 /* biginteger.h in Headers */,
+				5918EC82B623D742A849294859CD01B2 /* chrono_io.h in Headers */,
+				88BCFC289092AA8CA4B8DEBFD2CD6296 /* cursorstreamwrapper.h in Headers */,
+				EEF076907CCCDBB14A541DAA7BFCFA63 /* date.h in Headers */,
+				A0B8F0BFE16B6006A2DACCDE58B0B9EA /* diyfp.h in Headers */,
+				84FD7690E5A44E51C4B628EA89ABA59F /* document.h in Headers */,
+				88EB0210EE283919362F439319B837B5 /* dtoa.h in Headers */,
+				F53C606E5B1534D3B4CDB94BC2AAA820 /* en.h in Headers */,
+				45DC5940008B50BB77A2882B6228AE8F /* encodedstream.h in Headers */,
+				9AC419DDAB6FD06752855D2FF84F9823 /* encodings.h in Headers */,
+				2BEFDB17234C991B2BE585C040428706 /* EosioSwiftAbieosSerializationProvider-umbrella.h in Headers */,
+				8C3626B89DC3074BCA00AA9A50F0DCF7 /* EosioSwiftAbieosSerializationProvider.h in Headers */,
+				1CBB6A980FBAEB79ED50559612C64164 /* error.h in Headers */,
+				04224239B9F1432788DB67B551132976 /* filereadstream.h in Headers */,
+				1C7DE887D057D4D4E923E3DFF492E062 /* filewritestream.h in Headers */,
+				9DE14B77AD65BA7305CADF8B5CEDE45B /* fuzzer.hpp in Headers */,
+				A80E29AD54ECE4ED6DD2B89D17839B6B /* fwd.h in Headers */,
+				36BA19F3187872C92413A831A31EEAF0 /* ieee754.h in Headers */,
+				79143F1052CC025742245B53D4BDC714 /* ios.h in Headers */,
+				0183099E34B93ED5AD61571D1E5479EE /* islamic.h in Headers */,
+				7A4E6A5715B514E6E70BA4CA01F94592 /* iso_week.h in Headers */,
+				F1999DB7E7776ACA9B8C0E2C59E80EE4 /* istreamwrapper.h in Headers */,
+				24C9F53AFB96F9EE22AEC99EA22F55D3 /* itoa.h in Headers */,
+				0A0A52F8708F704A886F1B9CC6385AB6 /* julian.h in Headers */,
+				A88BBE8DDB931E750D4007822762E466 /* memorybuffer.h in Headers */,
+				F35066ED10C93F1CD7122D8BF18CB95B /* memorystream.h in Headers */,
+				7172347612BE312F0D195C3996674394 /* meta.h in Headers */,
+				1157CD492192A518F675CE489F9D45C3 /* ostreamwrapper.h in Headers */,
+				BC878447E04877AC439DA9750FD44724 /* pointer.h in Headers */,
+				ADA5002126722DA8AC691CA0577348B7 /* pow10.h in Headers */,
+				EB64C6BA939C990938AA64DCCA110C9B /* prettywriter.h in Headers */,
+				19E9D132174C2B5FCAA81EBBD4C40473 /* ptz.h in Headers */,
+				88363DC030C5DC131F8E23E99CED4F02 /* rapidjson.h in Headers */,
+				77D67476C1B34C054954CAE05BF3F61B /* reader.h in Headers */,
+				E1B3283418A394A58C5AE1699CE01111 /* regex.h in Headers */,
+				86687662331EBAF93DE24A529B6CE7D3 /* schema.h in Headers */,
+				FE1B0E02F7DFC5CB89BF867241B8C4B5 /* stack.h in Headers */,
+				89ACB8D7B49C4F6861D6F65BC513D0F0 /* stream.h in Headers */,
+				61F96B1920FEC66FCF596C27EE314C0D /* strfunc.h in Headers */,
+				51059F1952C69028635CC5C555C771D9 /* stringbuffer.h in Headers */,
+				C3E44499F6FCA10E4FE41B5579E78170 /* strtod.h in Headers */,
+				E7E56C10A3D3D5475C5F55D2975318FF /* swap.h in Headers */,
+				128C630D17B3AAA9032A47CB5B22989A /* tz.h in Headers */,
+				44AD55080CEA302284621FF0143356D5 /* tz_private.h in Headers */,
+				2BB42DBE64EC897B61C73B481B85D66E /* writer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		161A02771B21A722138EE16CEDF4ECF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EECE9FCF5E07473E6D0FE80BFCB94C9 /* BigInt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9FF70B111A4223697F004631054012 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242EDB62ECAD881AFA71474319222D1C /* EosioSwiftEcc-umbrella.h in Headers */,
+				4557FD5E23A1E5DB9C86B70F73D8E62C /* EosioSwiftEcc.h in Headers */,
+				2F5028B4820B66119EF1CDDB81F03A7B /* recover.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F518CB1364407D736CCD6B53934011 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72B8320B68BC5C22BA3784B9A0B8260 /* Pods-MobileUser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EA4667A0D70196226E8FA58143F3F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCFE6699321810B0E13EEC12D76DBCD /* AnyPromise.h in Headers */,
+				32B6D8696F0651A0D0A325E20DC6562F /* fwd.h in Headers */,
+				6D0DB8753FB711FCEA9BBB91B4D61A6B /* NSNotificationCenter+AnyPromise.h in Headers */,
+				DA824B04CE737E97CEF3F14BD12D2712 /* NSTask+AnyPromise.h in Headers */,
+				B2AC5C28B2CD865E1ED24CA021AD3BA7 /* NSURLSession+AnyPromise.h in Headers */,
+				7690A5488FCDFF81295F419FBA9A8F07 /* PMKFoundation.h in Headers */,
+				DCDE39084863D543CE4F003F85E3CEAB /* PMKUIKit.h in Headers */,
+				323FD60E12BBD4D30039C84662CA2A7C /* PromiseKit-umbrella.h in Headers */,
+				4D9E7E58E818FF108DD6C4FA056D7201 /* PromiseKit.h in Headers */,
+				9174AAADCA0BA50481DF1F6FE88BE9AE /* UIView+AnyPromise.h in Headers */,
+				240F2A77BA3A719C3F230343623ABB13 /* UIViewController+AnyPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFB9F1BA8DA9066AB71C3959B3E1C8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161712F56ACB3FF8A992E03379ECF1B8 /* EosioSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09DD83B7D075842A3A5105AD410BD38A /* BigInt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5104F4CC467A363177DF298548DA476E /* Build configuration list for PBXNativeTarget "BigInt" */;
+			buildPhases = (
+				161A02771B21A722138EE16CEDF4ECF9 /* Headers */,
+				AD425074D950826A1AA1323039964E21 /* Sources */,
+				11311D70953AC99174A763E25F665920 /* Frameworks */,
+				5C193E54B44DAEF03EE281A99BB02E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigInt;
+			productName = BigInt;
+			productReference = 91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		382B8C2672491F3FE8AF9C3F5C774A62 /* EosioSwiftAbieosSerializationProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5918B8859E171151CAFA2D9B6D31521 /* Build configuration list for PBXNativeTarget "EosioSwiftAbieosSerializationProvider" */;
+			buildPhases = (
+				14A90423E6A2D23171830C8A7DDCFDEA /* Headers */,
+				D5482A8BC89A5E522E10CB067507F70B /* Sources */,
+				190CB80FC7D27E23018F13F104DA46C8 /* Frameworks */,
+				731E49D03AB66F35E524082636DE4E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE971CCFF7B9C07F4EA600FAED7B979D /* PBXTargetDependency */,
+				94509B9F9B0CED6BBBE4351BE5B8F414 /* PBXTargetDependency */,
+			);
+			name = EosioSwiftAbieosSerializationProvider;
+			productName = EosioSwiftAbieosSerializationProvider;
+			productReference = E2EFCD4C0FD6D861D436D4CE21899CAD /* EosioSwiftAbieosSerializationProvider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47D3B58A3AC27F02D7D2BCB9BABC2A96 /* Pods-MobileUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2CE63077DE0158FD031AA23614BFA3 /* Build configuration list for PBXNativeTarget "Pods-MobileUser" */;
+			buildPhases = (
+				67F518CB1364407D736CCD6B53934011 /* Headers */,
+				FC04A462F164DE704F6843F9DB750A4C /* Sources */,
+				EDA95F014F34DF892F935111FFB8466D /* Frameworks */,
+				80FF8D754E25B0E21C76EEAD0BC991BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E0C853847F9FCA69BE64724895F0552 /* PBXTargetDependency */,
+				FFE83316B43FBE95375DCFB7576055A2 /* PBXTargetDependency */,
+				7DFE68613A9BE90179B336107E1A8484 /* PBXTargetDependency */,
+				FBB118561601DE2BCFB6C47EE07AF4EF /* PBXTargetDependency */,
+				7319F11AEE4D35A8114F3E8BA207ECAE /* PBXTargetDependency */,
+				02BC5A9B24EE8306EAF6B6B5BAD228B5 /* PBXTargetDependency */,
+				E02E3C21B5D6B5CB06F406943057D728 /* PBXTargetDependency */,
+			);
+			name = "Pods-MobileUser";
+			productName = "Pods-MobileUser";
+			productReference = C36454C07C0B89A795206C7ADF499425 /* Pods_MobileUser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48DD11FE3425410A409E55A889EACD4E /* EosioSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339AC76C5FB3C79F0A22FB8EF021D2E6 /* Build configuration list for PBXNativeTarget "EosioSwift" */;
+			buildPhases = (
+				EDFB9F1BA8DA9066AB71C3959B3E1C8A /* Headers */,
+				01BBF51D13FE23472598D135AC58C38B /* Sources */,
+				BA9489F1237772BFE28EEE825CC46220 /* Frameworks */,
+				BA0AADEE481A5CB3B80A3EA88DA00AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2303D19A1A8C33D77D26856E62958BF2 /* PBXTargetDependency */,
+				68D9490FB7CF3B04C527AFA963FD24CB /* PBXTargetDependency */,
+			);
+			name = EosioSwift;
+			productName = EosioSwift;
+			productReference = 936F7D6A5E573964F71409D62826A8BB /* EosioSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11AB3743055D7956AE4E0EE69B08662F /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				E9EA4667A0D70196226E8FA58143F3F3 /* Headers */,
+				A9CFE16C4837D7A47FCCF0232AB43BD8 /* Sources */,
+				51EC158A47990A1AEECCC30609D58F62 /* Frameworks */,
+				5F91F5C9E25C829DDB32C73CBCAE0070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = 002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D51AEB6C34F478BB7906F0EF1819936 /* EosioSwiftEcc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39928E574211F7333964EF7920C0580 /* Build configuration list for PBXNativeTarget "EosioSwiftEcc" */;
+			buildPhases = (
+				3D9FF70B111A4223697F004631054012 /* Headers */,
+				8995F8DE5C6317FECA4A7CF1B62A4E0D /* Sources */,
+				B345E337F1EA2C14D49AFB739581F987 /* Frameworks */,
+				C34FFC186570FD7CD64F734FD4283D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20A3C2935595CA735061DA1C47210480 /* PBXTargetDependency */,
+				AA6CA7F08D04BEADD153E62F9989E083 /* PBXTargetDependency */,
+			);
+			name = EosioSwiftEcc;
+			productName = EosioSwiftEcc;
+			productReference = 5284D7212383DB9C207C103FAEB4A0FE /* EosioSwiftEcc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2341A38E4995D75FC811B1B46BD7AC2 /* EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F0147060CB6368B4D551D40508E2AD /* Build configuration list for PBXNativeTarget "EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider" */;
+			buildPhases = (
+				A201B528FF7B2DD77BDC0AEE83F6B45D /* Sources */,
+				0A7372EC6B741F706993792E4C068BF8 /* Frameworks */,
+				722203D5DAE137A08174145A4F7C14E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider";
+			productName = "EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider";
+			productReference = EB0483E2A51FAC5E471016D051582503 /* EosioSwiftAbieosSerializationProvider.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E80DF59FBB7E1F74EE85DA494739FD82 /* EosioSwiftSoftkeySignatureProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E78F8EF24AA2D260D8E1FA30958EBD /* Build configuration list for PBXNativeTarget "EosioSwiftSoftkeySignatureProvider" */;
+			buildPhases = (
+				022F994F201FA06FAAF68179B08FBC78 /* Headers */,
+				0C1311EF71C7465525580D3961D26509 /* Sources */,
+				FE3A558AC0207BBAC8415AAF45BF5671 /* Frameworks */,
+				909AB6E4306A3F5FB58F5BAA127E6529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826043BBACCC7AE3CE8ABAB697B36E0B /* PBXTargetDependency */,
+				FEAB7FF0462D6B8935E56819D481D32B /* PBXTargetDependency */,
+			);
+			name = EosioSwiftSoftkeySignatureProvider;
+			productName = EosioSwiftSoftkeySignatureProvider;
+			productReference = FB2B40C683809D98A882630F8B91D56D /* EosioSwiftSoftkeySignatureProvider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6FAB753DA1C9BAF9254488491D75B396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09DD83B7D075842A3A5105AD410BD38A /* BigInt */,
+				48DD11FE3425410A409E55A889EACD4E /* EosioSwift */,
+				382B8C2672491F3FE8AF9C3F5C774A62 /* EosioSwiftAbieosSerializationProvider */,
+				D2341A38E4995D75FC811B1B46BD7AC2 /* EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider */,
+				9D51AEB6C34F478BB7906F0EF1819936 /* EosioSwiftEcc */,
+				E80DF59FBB7E1F74EE85DA494739FD82 /* EosioSwiftSoftkeySignatureProvider */,
+				06D25A4FF2ED1E3CE5A9A0822BE1F300 /* GRKOpenSSLFramework */,
+				47D3B58A3AC27F02D7D2BCB9BABC2A96 /* Pods-MobileUser */,
+				7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C193E54B44DAEF03EE281A99BB02E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F91F5C9E25C829DDB32C73CBCAE0070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722203D5DAE137A08174145A4F7C14E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5923FB9B86C6FF2B0FFDC7A9736F66EC /* abi.abi.json in Resources */,
+				CEAC784F449FFC3A44370D88442F14E4 /* eosio.assert.abi.json in Resources */,
+				27AE80090EAE061D494C709DA55F3FF1 /* transaction.abi.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731E49D03AB66F35E524082636DE4E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E282C3382E0B171FDDE25EDDC0295DC3 /* abi.abi.json in Resources */,
+				91E9B8E4D3013C4C69956EF3CE337B7D /* eosio.assert.abi.json in Resources */,
+				4DBB0B6FAC866D53B8C6B84AC68F6AEC /* EosioSwiftAbieosSerializationProvider.bundle in Resources */,
+				AF63F5B56527819A9B687ADEA8267043 /* transaction.abi.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FF8D754E25B0E21C76EEAD0BC991BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909AB6E4306A3F5FB58F5BAA127E6529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0AADEE481A5CB3B80A3EA88DA00AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34FFC186570FD7CD64F734FD4283D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BBF51D13FE23472598D135AC58C38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D7EE2FAB1839E51B8AF86F8A9A1B3C /* AllResponseProtocols.swift in Sources */,
+				2343F2E7E64F7A364F449848217CAF9F /* ArrayExtensions.swift in Sources */,
+				6B96057A65D25987CBB2E2DDD17DAB33 /* Base58String.swift in Sources */,
+				E4122FF2471ECB8ACDE31FF692FC148F /* DataExtensions.swift in Sources */,
+				56E02911DB04F9F19F7F636B9C156F0D /* DateExtensions.swift in Sources */,
+				67718F34FA984CBE8AAE355CF7FA85A5 /* DictionaryExtensions.swift in Sources */,
+				BB95B69AA234F0E227E0B05C6C54E5AF /* DynamicKey.swift in Sources */,
+				D2743223C0C90A6ABC40296DCC437C95 /* EncodableExtensions.swift in Sources */,
+				E872A0E0EAE38E956859E115976F7027 /* EosioAbiProvider.swift in Sources */,
+				6753BB947FF1F2D2DBEFAA8C251B9E68 /* EosioAbiProviderProtocol.swift in Sources */,
+				ED13D4F518121A4FA0C0D48CC88E9A31 /* EosioError.swift in Sources */,
+				1294E5CE5EC45963F674393D1BAD0616 /* EosioInt64.swift in Sources */,
+				46695A65CB410EC5F2511184879C00E5 /* EosioKeySignatureExtensions.swift in Sources */,
+				1CCDC9006C5B67381A69DB9DBB23196E /* EosioName.swift in Sources */,
+				3FDF73D216E9872FDA34434823B2200F /* EosioResult.swift in Sources */,
+				80D965FB459263DC97366E58B463ABCA /* EosioRpcProvider.swift in Sources */,
+				5C2D96BEE82341F662AE37E6EBAE32AE /* EosioRpcProviderEndpointsCallbacks.swift in Sources */,
+				58FE8A82E0C3474C5FEF4FB1BA02695A /* EosioRpcProviderEndpointsForProtocol.swift in Sources */,
+				943C567090E76769F5EC5DA1895BA632 /* EosioRpcProviderEndpointsPromises.swift in Sources */,
+				3425C3BA484A84D3D23F8969B865E3EE /* EosioRpcProviderProtocol.swift in Sources */,
+				D1309BF87A4EF1AAFBE0C410460C40FC /* EosioSerializationProviderProtocol.swift in Sources */,
+				18978CB2B908FB396F597E7B3A51AB8B /* EosioSignatureProviderProtocol.swift in Sources */,
+				05AD6693B262F9822380EB4F5434709D /* EosioSwift-dummy.m in Sources */,
+				8C13CDE629E445CB2E4E5642EA6E028A /* EosioTransaction.swift in Sources */,
+				0ED3FB885BF3BA243577785CBD915F7F /* EosioTransactionAbis.swift in Sources */,
+				28FA76D7CB4253FDB9BE4BA6D34E15BE /* EosioTransactionAction.swift in Sources */,
+				101BEDD4FB7C809A1B25C973F4320784 /* EosioTransactionFactory.swift in Sources */,
+				4F641E5CDA30AE42045EC6EAB71E934B /* EosioTransactionPromises.swift in Sources */,
+				78796013186F1720230688991C337111 /* EosioUInt64.swift in Sources */,
+				1E71E4A933C522AA08BF7963973F4682 /* LinkedList.swift in Sources */,
+				76FE4D219B1B813BB62430BFBE05EE55 /* Queue.swift in Sources */,
+				FCCEA2E53F94FC6DD08CF0EE8DF9D31C /* RequestModels.swift in Sources */,
+				FCA123EF201B3BC7018B1D740D2F72EF /* ResolverExtensions.swift in Sources */,
+				ED4AA47F308268F9E2820D02F98A63D1 /* RIPEMD160.swift in Sources */,
+				826D3F00C4923EDD5F25509B004148D3 /* RpcProviderRequestModels.swift in Sources */,
+				A5B53D19C1FA3E2AAE1BC82AC0FD5D6C /* RpcProviderResponseModels.swift in Sources */,
+				9A1A8E637271FD254E0BCF8C0A104299 /* StringExtensions.swift in Sources */,
+				83C7CFA8A923A02CD47C2C91A422792A /* ZAssert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1311EF71C7465525580D3961D26509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63A637FD62A3A6B8F74BF4269B5B5D5 /* EosioSoftkeySignatureProvider.swift in Sources */,
+				674468C667F577AFB49675C2604FE8DB /* EosioSwiftSoftkeySignatureProvider-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8995F8DE5C6317FECA4A7CF1B62A4E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603317877AFD06910F3C2676A01DE03F /* EccRecoverKey.swift in Sources */,
+				89ACECDB182F374A26519363A7A526A1 /* EcdsaSignature.swift in Sources */,
+				CD76947D5CDC041AA3D5A25CF2F51347 /* EllipticCurveType.swift in Sources */,
+				B07A66454547FC83C32C2B69FAFB0CD5 /* EosioEccSign.swift in Sources */,
+				58B6CA6D5BBC94CE9A1AB6D592753999 /* EosioSwiftEcc-dummy.m in Sources */,
+				0EEC98B948E17DAA43CBE601859A3CAF /* recover.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A201B528FF7B2DD77BDC0AEE83F6B45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFE16C4837D7A47FCCF0232AB43BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99EC1746C5244E1CF2183506FAE2F17 /* after.m in Sources */,
+				D450EF6D548058E294E067FAC98F8ACC /* after.swift in Sources */,
+				517B2AD8E7A1ABFE68F9ADC721ED7C4D /* afterlife.swift in Sources */,
+				A2633A44E1A693A5E98F139FD6E490B3 /* AnyPromise.m in Sources */,
+				188D15A101EBC3353E307EE9DFC87C4F /* AnyPromise.swift in Sources */,
+				59482A77590060AD70D03D14A787D64E /* Box.swift in Sources */,
+				D8240EBAAB2DD4234F126E4A700EE526 /* Catchable.swift in Sources */,
+				140F7F4B7DC1280F03BE460B3260CDDF /* Configuration.swift in Sources */,
+				0E85E684D3F661DE7395AD54CF99E00F /* CustomStringConvertible.swift in Sources */,
+				C69DC9D999D26A522CC08D826C2E634F /* Deprecations.swift in Sources */,
+				83F17C2E38E332C651FCC8A5B26ADB20 /* dispatch_promise.m in Sources */,
+				AC3DE75EE04059E191120F9FB592A6D5 /* Error.swift in Sources */,
+				DBEEE0B272E2A71B1AF94EAC80F3C11A /* firstly.swift in Sources */,
+				D876E549F18CE044B83612EFFEB6F546 /* Guarantee.swift in Sources */,
+				FA7DDE782A9FB4163283970977B7967D /* hang.m in Sources */,
+				B898A49BA9BC093569819CE51CB213EB /* hang.swift in Sources */,
+				85BCDDEDC2FD5245CA21DE175FD8D5ED /* join.m in Sources */,
+				3F21661299EE6349CEB31ACBCF59025E /* LogEvent.swift in Sources */,
+				2FB67A73B731F8BA405E2889092CB47C /* NSNotificationCenter+AnyPromise.m in Sources */,
+				583B11F8B1D0281AE6A029681CDF137F /* NSNotificationCenter+Promise.swift in Sources */,
+				C1D8AFE6EDBACC0F318362B3933014A1 /* NSObject+Promise.swift in Sources */,
+				1E9C45CDB6CE8DD611C89C2D6D92105E /* NSTask+AnyPromise.m in Sources */,
+				2F06B155ACA3108F5883F409ECB81B7D /* NSURLSession+AnyPromise.m in Sources */,
+				74370BAEC39BD965C717C805B5B0F5ED /* NSURLSession+Promise.swift in Sources */,
+				3BD3C362CA48180D2A5D72A798809B6C /* Process+Promise.swift in Sources */,
+				C72351935611BF21A22F61732C30871B /* Promise.swift in Sources */,
+				DA60CC6C0D4400216F12D2EB75610F79 /* PromiseKit-dummy.m in Sources */,
+				ED719268511BCB9FA18C3A61B7197DED /* race.m in Sources */,
+				63DC482646FF6BEDA2FD3BEA20E161F1 /* race.swift in Sources */,
+				C4D0CB0738C601DD24C0918BA2A568B7 /* Resolver.swift in Sources */,
+				D97978F2F5E0B637D6B8E91503213A98 /* Thenable.swift in Sources */,
+				568EC7A2707F9B27003C99AEDFDA5E18 /* UIView+AnyPromise.m in Sources */,
+				2624C45EDD3F8FC5AE2A63824F751A8E /* UIView+Promise.swift in Sources */,
+				AFE4D85899B04BEC5F040CA05813A5D9 /* UIViewController+AnyPromise.m in Sources */,
+				35BA4DA0BAE8ACBEE9DC3B0F063C61AA /* UIViewPropertyAnimator+Promise.swift in Sources */,
+				A9340B37C13D9B8FDD6773EEE4E0F4BA /* when.m in Sources */,
+				9E9AECD2648A4F18C034B2923F23563B /* when.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD425074D950826A1AA1323039964E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6002AD14210CBE9C34EB848031CFD7E6 /* Addition.swift in Sources */,
+				FFF7E224F5F3094210837EC8C7FE4960 /* BigInt-dummy.m in Sources */,
+				5E2574B7162EED00A81237F56CDC0BE4 /* BigInt.swift in Sources */,
+				AC7DBF3AD44B3E7644068E6F09F9EBF2 /* BigUInt.swift in Sources */,
+				04C4B5D00750E2E4DFD4C4C7CC47283A /* Bitwise Ops.swift in Sources */,
+				DBE9A6D9CB82D8605F4C25B9426B1557 /* Codable.swift in Sources */,
+				16F71F20D31B7EEC6A60DB14135AB7A9 /* Comparable.swift in Sources */,
+				39137B0D7B8FB5BF554BDE012BD85061 /* Data Conversion.swift in Sources */,
+				3B9A2601095A9A72843D76CA44B37782 /* Division.swift in Sources */,
+				0DF63A4C8FA0E53FB630F5B5429FF066 /* Exponentiation.swift in Sources */,
+				2228B8549F0F5445D1B2D346E12A20CD /* Floating Point Conversion.swift in Sources */,
+				F13925E2206A7647AC326ECFA6ED2856 /* GCD.swift in Sources */,
+				4A8B21596204A43258F4EC69A7AEC66E /* Hashable.swift in Sources */,
+				E0B84D75D0F7E7EA2E905C05774CC361 /* Integer Conversion.swift in Sources */,
+				D48A4410A7C8CE6B6A0787A0F4999DE5 /* Multiplication.swift in Sources */,
+				E93CF504980B3D653BB4530E7F98E9F6 /* Prime Test.swift in Sources */,
+				AC4E061C6A2D21210122B471D8BCC81E /* Random.swift in Sources */,
+				BE29AFA73FEDAFA471F35F8AB1C3EA99 /* Shifts.swift in Sources */,
+				4362503059C68DFCDCB8621F4FD9E325 /* Square Root.swift in Sources */,
+				99F35D362CDAA3F01D59E05FAB02907D /* Strideable.swift in Sources */,
+				E8ABBB87CFEBE721FC2D14B71A719BC2 /* String Conversion.swift in Sources */,
+				BAA052C302D45F8DAB72606E997CAD69 /* Subtraction.swift in Sources */,
+				8599E23B2946C6F3F6DA3D63EC82C4A3 /* Words and Bits.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5482A8BC89A5E522E10CB067507F70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E9B818A70780B96747BC1B2C5A1892 /* abieos.cpp in Sources */,
+				6382A1CB0C1BA2D662D8A854054BC681 /* EosioAbieosSerializationProvider.swift in Sources */,
+				28DE1CC745AB2A99781924CFB138492F /* EosioSwiftAbieosSerializationProvider-dummy.m in Sources */,
+				D39FF0A3F947462EEE84CB3E2B9B4870 /* fuzzer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC04A462F164DE704F6843F9DB750A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8A550FAA65438EEB423E931E37C98 /* Pods-MobileUser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02BC5A9B24EE8306EAF6B6B5BAD228B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRKOpenSSLFramework;
+			target = 06D25A4FF2ED1E3CE5A9A0822BE1F300 /* GRKOpenSSLFramework */;
+			targetProxy = A68E46AEB36DDDA9058ACBD8E7AAC4A5 /* PBXContainerItemProxy */;
+		};
+		20A3C2935595CA735061DA1C47210480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwift;
+			target = 48DD11FE3425410A409E55A889EACD4E /* EosioSwift */;
+			targetProxy = 87673F95C7B5AD416D0C552A7C3B3FCC /* PBXContainerItemProxy */;
+		};
+		2303D19A1A8C33D77D26856E62958BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BigInt;
+			target = 09DD83B7D075842A3A5105AD410BD38A /* BigInt */;
+			targetProxy = 1DD0B61E68D4AE058E5BB06BB4344582 /* PBXContainerItemProxy */;
+		};
+		3E0C853847F9FCA69BE64724895F0552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BigInt;
+			target = 09DD83B7D075842A3A5105AD410BD38A /* BigInt */;
+			targetProxy = 9A37AED13E1A3BC4B3589B114CCA4196 /* PBXContainerItemProxy */;
+		};
+		68D9490FB7CF3B04C527AFA963FD24CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
+			targetProxy = BDDEB75C21A3B5465196FC643F98F4F3 /* PBXContainerItemProxy */;
+		};
+		7319F11AEE4D35A8114F3E8BA207ECAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwiftSoftkeySignatureProvider;
+			target = E80DF59FBB7E1F74EE85DA494739FD82 /* EosioSwiftSoftkeySignatureProvider */;
+			targetProxy = 3EC090C731FFE0F65EEDE215F358F4D6 /* PBXContainerItemProxy */;
+		};
+		7DFE68613A9BE90179B336107E1A8484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwiftAbieosSerializationProvider;
+			target = 382B8C2672491F3FE8AF9C3F5C774A62 /* EosioSwiftAbieosSerializationProvider */;
+			targetProxy = EFFC8EA557CC3448D651839CD33A320A /* PBXContainerItemProxy */;
+		};
+		826043BBACCC7AE3CE8ABAB697B36E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwift;
+			target = 48DD11FE3425410A409E55A889EACD4E /* EosioSwift */;
+			targetProxy = 9FE08F0A7458AE83559E440829DC3C3F /* PBXContainerItemProxy */;
+		};
+		94509B9F9B0CED6BBBE4351BE5B8F414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider";
+			target = D2341A38E4995D75FC811B1B46BD7AC2 /* EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider */;
+			targetProxy = AE7F5D43A7A1649D80578DD02F46DD6E /* PBXContainerItemProxy */;
+		};
+		AA6CA7F08D04BEADD153E62F9989E083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRKOpenSSLFramework;
+			target = 06D25A4FF2ED1E3CE5A9A0822BE1F300 /* GRKOpenSSLFramework */;
+			targetProxy = 077D75E0018C437BC9A0B80EF1E9988B /* PBXContainerItemProxy */;
+		};
+		E02E3C21B5D6B5CB06F406943057D728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
+			targetProxy = CDFF35C8783733F610F2D7C2D89827DD /* PBXContainerItemProxy */;
+		};
+		EE971CCFF7B9C07F4EA600FAED7B979D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwift;
+			target = 48DD11FE3425410A409E55A889EACD4E /* EosioSwift */;
+			targetProxy = 0A7BBDFB14D0D0CE1A7C63C1A1F0DF3D /* PBXContainerItemProxy */;
+		};
+		FBB118561601DE2BCFB6C47EE07AF4EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwiftEcc;
+			target = 9D51AEB6C34F478BB7906F0EF1819936 /* EosioSwiftEcc */;
+			targetProxy = 80F3738D9318033B344B90E83F827A3A /* PBXContainerItemProxy */;
+		};
+		FEAB7FF0462D6B8935E56819D481D32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwiftEcc;
+			target = 9D51AEB6C34F478BB7906F0EF1819936 /* EosioSwiftEcc */;
+			targetProxy = B2C4A0F08D6F02AD93D3BF913D36FD3F /* PBXContainerItemProxy */;
+		};
+		FFE83316B43FBE95375DCFB7576055A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwift;
+			target = 48DD11FE3425410A409E55A889EACD4E /* EosioSwift */;
+			targetProxy = F8D827A3533F050AFD0D3A79FC9254B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0505C4150D12B52505131AA01B041245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF04711DB41B39F37796D9AFF63EB6B4 /* EosioSwiftAbieosSerializationProvider.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.modulemap";
+				PRODUCT_MODULE_NAME = EosioSwiftAbieosSerializationProvider;
+				PRODUCT_NAME = EosioSwiftAbieosSerializationProvider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		173EC2CB9D0C4A653D9FB7BD45409C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D089B5CB46A1482F62F6AD167FF6AF /* PromiseKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C4C35D6E86F6B6071783F6CE43DC05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF1545C64154E989E95EA0152E2FD97 /* PromiseKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2689C05763836A936D523982A615F054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805416C42F1E964CD76E7846FAD2A353 /* EosioSwiftSoftkeySignatureProvider.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider.modulemap";
+				PRODUCT_MODULE_NAME = EosioSwiftSoftkeySignatureProvider;
+				PRODUCT_NAME = EosioSwiftSoftkeySignatureProvider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		270F3B24D59B4AA70ECD492C373C2C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB5113714DE16F952BFD64C87D566CF /* Pods-MobileUser.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobileUser/Pods-MobileUser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobileUser/Pods-MobileUser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		311F33CC86E8F9D9C6906FAD281B702E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1B8AA1CB77ECC25D3EEE0DC2CC94DA /* EosioSwiftEcc.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EosioSwiftEcc/EosioSwiftEcc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EosioSwiftEcc/EosioSwiftEcc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EosioSwiftEcc/EosioSwiftEcc.modulemap";
+				PRODUCT_MODULE_NAME = EosioSwiftEcc;
+				PRODUCT_NAME = EosioSwiftEcc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37C3446F0A74F40CAA685BDB500AAEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49393A5E4E196B3AF4132431B76C29D3 /* GRKOpenSSLFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EB1FDA19A32FE621D8CF7DEA51441CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB6A6AF6B17B9CF14C1057AD5F0C91E /* EosioSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EosioSwift/EosioSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EosioSwift/EosioSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EosioSwift/EosioSwift.modulemap";
+				PRODUCT_MODULE_NAME = EosioSwift;
+				PRODUCT_NAME = EosioSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A926E607713345AB254FEF61D147001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C9741CE793AD8B63A22A4A7A6F6165 /* Pods-MobileUser.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobileUser/Pods-MobileUser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobileUser/Pods-MobileUser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CE927B4F91BCB1B1C18C8897E72FC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5D34A5B5F612A7880B46C6FA253C10 /* EosioSwiftSoftkeySignatureProvider.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider.modulemap";
+				PRODUCT_MODULE_NAME = EosioSwiftSoftkeySignatureProvider;
+				PRODUCT_NAME = EosioSwiftSoftkeySignatureProvider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A501E19B1CFB6F9CC469E9FD7822A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5D1F6882ED573A00F54F3259FA64CE /* EosioSwiftAbieosSerializationProvider.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EosioSwiftAbieosSerializationProvider";
+				IBSC_MODULE = EosioSwiftAbieosSerializationProvider;
+				INFOPLIST_FILE = "Target Support Files/EosioSwiftAbieosSerializationProvider/ResourceBundle-EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = EosioSwiftAbieosSerializationProvider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		71B560AC9021AE618A6DFD1EFE6AA7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418EF995F5100A880599CCD8025C99F5 /* BigInt.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
+				PRODUCT_MODULE_NAME = BigInt;
+				PRODUCT_NAME = BigInt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75D5193437810E80D7D8401897009A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF04711DB41B39F37796D9AFF63EB6B4 /* EosioSwiftAbieosSerializationProvider.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EosioSwiftAbieosSerializationProvider";
+				IBSC_MODULE = EosioSwiftAbieosSerializationProvider;
+				INFOPLIST_FILE = "Target Support Files/EosioSwiftAbieosSerializationProvider/ResourceBundle-EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = EosioSwiftAbieosSerializationProvider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A6F9E0F10E7458053B5BAED7B396FB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FEA4D9E585E9DCDC359D52CE57F8DA6 /* EosioSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EosioSwift/EosioSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EosioSwift/EosioSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EosioSwift/EosioSwift.modulemap";
+				PRODUCT_MODULE_NAME = EosioSwift;
+				PRODUCT_NAME = EosioSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB2BAD48E412A33D88DCF24B64A5BD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6627E0280A8177177CC85883C576FB57 /* GRKOpenSSLFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB7AD58041F066C6B07B5EA952FCC936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5D1F6882ED573A00F54F3259FA64CE /* EosioSwiftAbieosSerializationProvider.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.modulemap";
+				PRODUCT_MODULE_NAME = EosioSwiftAbieosSerializationProvider;
+				PRODUCT_NAME = EosioSwiftAbieosSerializationProvider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F0A25FEB2864DD44A44646205C4DD7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D06CC67949D14F47DE84596A27A7965 /* BigInt.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
+				PRODUCT_MODULE_NAME = BigInt;
+				PRODUCT_NAME = BigInt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEA048187C8A1EDE4F2B971E2DCDC04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D971F6C13E280A72A638604E631F469 /* EosioSwiftEcc.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EosioSwiftEcc/EosioSwiftEcc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EosioSwiftEcc/EosioSwiftEcc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EosioSwiftEcc/EosioSwiftEcc.modulemap";
+				PRODUCT_MODULE_NAME = EosioSwiftEcc;
+				PRODUCT_NAME = EosioSwiftEcc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11AB3743055D7956AE4E0EE69B08662F /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173EC2CB9D0C4A653D9FB7BD45409C05 /* Debug */,
+				1C4C35D6E86F6B6071783F6CE43DC05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E78F8EF24AA2D260D8E1FA30958EBD /* Build configuration list for PBXNativeTarget "EosioSwiftSoftkeySignatureProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2689C05763836A936D523982A615F054 /* Debug */,
+				5CE927B4F91BCB1B1C18C8897E72FC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339AC76C5FB3C79F0A22FB8EF021D2E6 /* Build configuration list for PBXNativeTarget "EosioSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F9E0F10E7458053B5BAED7B396FB27 /* Debug */,
+				3EB1FDA19A32FE621D8CF7DEA51441CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5104F4CC467A363177DF298548DA476E /* Build configuration list for PBXNativeTarget "BigInt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B560AC9021AE618A6DFD1EFE6AA7AF /* Debug */,
+				F0A25FEB2864DD44A44646205C4DD7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39928E574211F7333964EF7920C0580 /* Build configuration list for PBXNativeTarget "EosioSwiftEcc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311F33CC86E8F9D9C6906FAD281B702E /* Debug */,
+				FEA048187C8A1EDE4F2B971E2DCDC04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5734BF7A7E4A9E3E3646955D1C62916 /* Build configuration list for PBXAggregateTarget "GRKOpenSSLFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C3446F0A74F40CAA685BDB500AAEC3 /* Debug */,
+				DB2BAD48E412A33D88DCF24B64A5BD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2CE63077DE0158FD031AA23614BFA3 /* Build configuration list for PBXNativeTarget "Pods-MobileUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A926E607713345AB254FEF61D147001 /* Debug */,
+				270F3B24D59B4AA70ECD492C373C2C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5918B8859E171151CAFA2D9B6D31521 /* Build configuration list for PBXNativeTarget "EosioSwiftAbieosSerializationProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7AD58041F066C6B07B5EA952FCC936 /* Debug */,
+				0505C4150D12B52505131AA01B041245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F0147060CB6368B4D551D40508E2AD /* Build configuration list for PBXNativeTarget "EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A501E19B1CFB6F9CC469E9FD7822A8C /* Debug */,
+				75D5193437810E80D7D8401897009A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
